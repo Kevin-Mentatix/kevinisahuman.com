@@ -69,7 +69,7 @@ for (const t of topics) t.videos = videos.filter((v) => v.topics.includes(t.slug
 // ---------- entities (JSON-LD) ----------
 const PERSON_ID = abs('/#kevin');
 const SITE_ID = abs('/#website');
-const sameAs = [links.youtube, links.twitch, links.kick, links.x, links.instagram];
+const sameAs = [links.youtube, links.twitch, links.kick, links.x, links.instagram, links.discord];
 const personLD = {
   '@type': 'Person', '@id': PERSON_ID, name: person.name, alternateName: person.alternateName,
   description: person.description, jobTitle: person.jobTitle, url: abs('/'), image: abs('/assets/img/kevin.jpg'),
@@ -115,10 +115,12 @@ const icon = {
   kick: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 3h6v4h2V5h2V3h6v6h-2v2h-2v2h2v2h2v6h-6v-2h-2v-2H9v4H3V3z"/></svg>',
   x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.2 2.3h3.4l-7.4 8.5 8.7 11.5h-6.8l-5.3-7-6.1 7H1.3l7.9-9.1L.8 2.3h7l4.8 6.4 5.6-6.4zm-1.2 18h1.9L7.1 4.2H5.1l11.9 16.1z"/></svg>',
   ig: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8C2.4 4 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>',
+  discord: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.3 4.4A19.8 19.8 0 0 0 15.4 3l-.6 1.3a18.4 18.4 0 0 0-5.5 0L8.6 3a19.7 19.7 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.9 19.9 0 0 0 6 3l1.3-2a12.9 12.9 0 0 1-2-1l.5-.4a14.2 14.2 0 0 0 12.2 0l.5.4c-.6.4-1.3.7-2 1l1.3 2a19.8 19.8 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7zM8 15.4c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.6 8 10.6s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4z"/></svg>',
   play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>',
   arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 12h14m-6-6 6 6-6 6"/></svg>',
 };
 const socials = () => `<ul class="socials">
+  <li><a href="${links.discord}" rel="noopener" target="_blank" aria-label="Discord">${icon.discord}</a></li>
   <li><a href="${links.youtube}" rel="me noopener" target="_blank" aria-label="YouTube">${icon.yt}</a></li>
   <li><a href="${links.kick}" rel="me noopener" target="_blank" aria-label="Kick">${icon.kick}</a></li>
   <li><a href="${links.twitch}" rel="me noopener" target="_blank" aria-label="Twitch">${icon.twitch}</a></li>
@@ -173,6 +175,7 @@ ${ld({ '@context': 'https://schema.org', '@graph': [websiteLD, personLD, ...sche
   <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span></button>
   <nav id="nav" aria-label="Primary">
     <ul>${NAV.map(([n, h]) => `<li><a href="${url(h)}"${p.startsWith(h) ? ' aria-current="page"' : ''}>${n}</a></li>`).join('')}</ul>
+    <a class="btn btn-discord" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Discord</a>
     <a class="btn btn-sub" href="${links.youtubeSub}" rel="noopener" target="_blank">${icon.yt} Subscribe</a>
   </nav>
 </header>
@@ -221,10 +224,16 @@ const projectCta = (pr, context) => pr ? `<aside class="cta-project">
   <div><p class="hud">Go deeper ${context ? '· ' + esc(context) : ''}</p><h2>${esc(pr.name)}</h2><p>${esc(pr.blurb)}</p>
   <a class="btn" href="${pr.url}" rel="noopener" target="_blank">Open ${esc(pr.name)} ${icon.arrow}</a></div>
 </aside>` : '';
+const discordCta = () => `<section class="cta-discord">
+  <div class="cta-discord-icon">${icon.discord}</div>
+  <div><p class="hud">Community · Free to join</p><h2>Join the Kevin Is A Human Discord.</h2><p>Talk through the investigations with people who are paying attention, share what you're finding, and get every new upload in #youtube-uploads.</p></div>
+  <a class="btn btn-discord btn-lg" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a>
+</section>`;
 const subscribeCta = () => `<section class="cta-sub">
-  <div><p class="hud">New video almost every day</p><h2>Don't miss the next one.</h2><p>Subscribe on YouTube, or catch the investigations live on Kick and Twitch.</p></div>
+  <div><p class="hud">New video almost every day</p><h2>Don't miss the next one.</h2><p>Subscribe on YouTube, join the community on Discord, or catch the investigations live on Kick and Twitch.</p></div>
   <div class="cta-actions">
     <a class="btn btn-primary" href="${links.youtubeSub}" rel="noopener" target="_blank">${icon.yt} Subscribe on YouTube</a>
+    <a class="btn btn-discord" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a>
     <a class="btn" href="${links.kick}" rel="noopener" target="_blank">${icon.kick} Kick</a>
     <a class="btn" href="${links.twitch}" rel="noopener" target="_blank">${icon.twitch} Twitch</a>
   </div>
@@ -247,6 +256,7 @@ function home() {
     <p class="hero-sub">Investigating <strong>transhumanism</strong>, the <strong>AI cults</strong> of Silicon Valley, the <strong>surveillance state</strong>, and the corruption that connects them.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="${url(latest.path)}">${icon.play} Watch the latest</a>
+      <a class="btn btn-discord" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a>
       <a class="btn" href="${url('/videos/')}">Browse all ${videos.length} videos</a>
       <a class="btn btn-ghost" href="${url('/live/')}"><span class="rec">●</span> Live streams</a>
     </div>
@@ -269,6 +279,8 @@ function home() {
     </div>
   </div>
 </section>
+
+<div class="wrap">${discordCta()}</div>
 
 <section class="wrap section">
   <header class="sec-head">${hud('Change the channel')}<h2>What Kevin investigates</h2></header>
@@ -318,6 +330,7 @@ function faqs() {
     ['What topics does Kevin Is A Human cover?', `Transhumanism and the TESCREAL ideologies behind the AI race, Silicon Valley's AI companies, the surveillance state (Flock cameras, Palantir, biometric tracking), tech billionaires like Peter Thiel, government corruption, and the string of dead and missing U.S. scientists.`],
     ['What is TESCREAL?', `TESCREAL is an acronym for transhumanism, extropianism, singularitarianism, cosmism, rationalism, effective altruism, and longtermism, a cluster of ideologies influential in Silicon Valley's AI industry. Kevin covers it on the <a href="${url('/channels/ai-cults-tescreal/')}">AI Cults &amp; TESCREAL channel</a> and on <a href="${projects[1].url}">theaicults.com</a>.`],
     ['Where can I watch Kevin live?', `On <a href="${links.kick}">Kick</a>, <a href="${links.twitch}">Twitch</a>, and YouTube. The <a href="${url('/live/')}">live page</a> on this site shows the stream whenever he is on.`],
+    ['Is there a Kevin Is A Human community?', `Yes. The <a href="${links.discord}">Kevin Is A Human Discord</a> is free to join. It's where viewers discuss the investigations between streams, and every new upload is posted in #youtube-uploads.`],
     ['What websites does Kevin run?', `<a href="${projects[0].url}">Panopticon Index</a> maps the U.S. surveillance industry, <a href="${projects[1].url}">The AI Cults</a> investigates TESCREAL, and <a href="${projects[2].url}">Who Killed The Scientists?</a> tracks the scientists tied to classified programs who have died or vanished since 2022.`],
     ['Do views on this site count on YouTube?', `Yes. Every video here plays through YouTube's official embedded player, so views and watch time count toward the channel just like watching on YouTube.`],
   ];
@@ -382,6 +395,7 @@ function videoPage(v) {
       <p class="watch-meta"><time datetime="${v.publishedAt}">${dateFmt(v.publishedAt)}</time> · ${clock(v.duration)} · ${num(v.views)} views</p>
       <div class="watch-actions">
         <a class="btn btn-primary" href="${links.youtubeSub}" rel="noopener" target="_blank">${icon.yt} Subscribe</a>
+        <a class="btn btn-discord" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Discuss on Discord</a>
         <a class="btn" href="https://www.youtube.com/watch?v=${v.id}" rel="noopener" target="_blank">Comment on YouTube</a>
         <button class="btn btn-ghost" type="button" data-share>Copy link</button>
       </div>
@@ -481,6 +495,7 @@ function livePage() {
   <div class="player live-player" id="live-player" data-channel="${site.channelId}"></div>
   <p class="muted small" id="live-status">Checking who's live…</p>
   <div class="cta-actions">
+    <a class="btn btn-discord" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a>
     <a class="btn" href="${links.kick}" rel="noopener" target="_blank">${icon.kick} Follow on Kick</a>
     <a class="btn" href="${links.twitch}" rel="noopener" target="_blank">${icon.twitch} Follow on Twitch</a>
     <a class="btn btn-primary" href="${links.youtubeSub}" rel="noopener" target="_blank">${icon.yt} Subscribe on YouTube</a>
@@ -598,7 +613,7 @@ ${videos.slice(0, 40).map((v) => `<item><title>${esc(v.t)}</title><link>${abs(v.
 
 > ${person.description}
 
-Kevin publishes new videos on YouTube (${links.youtube}) almost every day and streams live on Kick (${links.kick}) and Twitch (${links.twitch}). Every video on this site plays via YouTube's embedded player. Each video page includes a summary, key moments, and the full transcript.
+Kevin publishes new videos on YouTube (${links.youtube}) almost every day and streams live on Kick (${links.kick}) and Twitch (${links.twitch}). The community Discord is ${links.discord}. Every video on this site plays via YouTube's embedded player. Each video page includes a summary, key moments, and the full transcript.
 
 ## Core pages
 - [All videos](${abs('/videos/')}): searchable catalog of ${videos.length} videos and live stream VODs

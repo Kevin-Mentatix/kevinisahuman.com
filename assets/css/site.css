@@ -96,7 +96,7 @@ button { font: inherit; color: inherit; }
   #nav.open { display: flex; }
   #nav ul { flex-direction: column; gap: 0; }
   #nav ul a { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 1.1rem; }
-  #nav .btn-sub { margin-top: 14px; justify-content: center; min-height: 46px; }
+  #nav .btn-sub, #nav .btn-discord { margin-top: 14px; justify-content: center; min-height: 46px; }
 }
 
 /* Hero */
@@ -205,6 +205,16 @@ button { font: inherit; color: inherit; }
 .cta-sub h2 { margin-bottom: .25em; }
 .cta-sub p:not(.hud) { color: var(--ink-2); margin: 0; }
 .cta-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn-discord { background: #5865f2; border-color: #5865f2; color: #fff; }
+.btn-discord:hover { background: #4752c4; border-color: #4752c4; color: #fff; }
+#nav .btn-discord { min-height: 38px; padding: .4em .95em; }
+.btn-lg { min-height: 52px; padding: .75em 1.4em; font-size: 1.05rem; }
+.cta-discord { display: grid; gap: 18px; align-items: center; margin: 56px 0 8px; padding: 28px; border-radius: 14px; border: 1px solid rgba(88,101,242,.55); background: radial-gradient(circle at 0 0, rgba(88,101,242,.32), transparent 60%), var(--bg-2); }
+@media (min-width: 900px) { .cta-discord { grid-template-columns: auto 1fr auto; padding: 36px 40px; gap: 28px; } }
+.cta-discord-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 18px; background: #5865f2; color: #fff; }
+.cta-discord-icon svg { width: 36px; height: 36px; }
+.cta-discord h2 { margin-bottom: .25em; }
+.cta-discord p:not(.hud) { color: var(--ink-2); margin: 0; max-width: 60ch; }
 
 /* About */
 .about-strip, .about { display: grid; gap: 28px; align-items: center; }
