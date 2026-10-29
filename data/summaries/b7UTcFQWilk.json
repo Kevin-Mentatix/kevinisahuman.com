@@ -1,0 +1,46 @@
+{
+ "metaDescription": "Kevin compiles clips of AI leaders, transhumanists, and critics on superintelligence, immortality, and extinction to examine the TESCREAL worldview.",
+ "summary": "Kevin presents a montage of clips about the TESCREAL worldview and Silicon Valley's push toward artificial superintelligence. Speakers discuss an ASI that could keep humans around or exterminate them, transhumanist hopes of immortality and becoming godlike, Ray Kurzweil's 2045 singularity prediction, and Eliezer Yudkowsky's alignment warnings. Critics argue the movement is a religion with an anti-human bias, tied to eugenics and billionaire interests, and refer to Anthony Levandowski's Way of the Future church. The clips also include OpenAI, DeepMind, and Elon Musk's Neuralink, and a call to be pro-human. The clips do not form a single argument.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Overtaken As The Dominant Species"
+  },
+  {
+   "t": 91,
+   "label": "Digital God And Transhumanist Religion"
+  },
+  {
+   "t": 227,
+   "label": "Alignment, Billionaires, And Immortality"
+  },
+  {
+   "t": 364,
+   "label": "Pause Letter And Anti-Human Bias"
+  },
+  {
+   "t": 594,
+   "label": "Existential Risk And AI Autonomy"
+  },
+  {
+   "t": 733,
+   "label": "Utopian Violence And Alien Intelligence"
+  },
+  {
+   "t": 870,
+   "label": "Way Of The Future And Bunkers"
+  }
+ ],
+ "entities": [
+  "TESCREAL",
+  "Transhumanism",
+  "Artificial superintelligence",
+  "Ray Kurzweil",
+  "Eliezer Yudkowsky",
+  "Singularity",
+  "OpenAI",
+  "DeepMind",
+  "Neuralink",
+  "Way of the Future"
+ ]
+}

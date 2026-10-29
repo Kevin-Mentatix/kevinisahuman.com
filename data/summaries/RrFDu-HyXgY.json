@@ -1,0 +1,50 @@
+{
+  "metaDescription": "Kevin walks through transhumanism's history and the companies behind it, including Neuralink, Merge Labs, Altos Labs, Alcor, and Nectome.",
+  "summary": "This video is Kevin's overview of transhumanism and the companies pursuing it. He traces the idea from the Epic of Gilgamesh and Julian Huxley to Max More's Extropians, cryonics, and Ray Kurzweil's singularity. He then surveys firms in brain-computer interfaces, longevity, and mind uploading, including Neuralink, Merge Labs, Kernel, Altos Labs, Retro Biosciences, Alcor, and Nectome, naming backers such as Elon Musk, Sam Altman, Peter Thiel, and Jeff Bezos. Kevin argues that merging with AI is the point where someone stops being human and that society may pressure people into adopting the technology.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Why Transhumanism Needs A Quick History"
+    },
+    {
+      "t": 235,
+      "label": "From Gilgamesh To The Enlightenment"
+    },
+    {
+      "t": 462,
+      "label": "Extropians, Cryonics, And Kurzweil's Singularity"
+    },
+    {
+      "t": 876,
+      "label": "Brain Interface Companies: Neuralink And Merge"
+    },
+    {
+      "t": 1291,
+      "label": "Sam Altman's The Merge Essay"
+    },
+    {
+      "t": 1976,
+      "label": "Longevity Companies And Their Billionaire Backers"
+    },
+    {
+      "t": 2161,
+      "label": "Alcor, Nectome, And Mind Uploading"
+    },
+    {
+      "t": 2524,
+      "label": "When Do You Stop Being Human?"
+    }
+  ],
+  "entities": [
+    "Transhumanism",
+    "Neuralink",
+    "Merge Labs",
+    "Sam Altman",
+    "Elon Musk",
+    "Peter Thiel",
+    "Extropians",
+    "Ray Kurzweil",
+    "Alcor",
+    "Altos Labs"
+  ]
+}

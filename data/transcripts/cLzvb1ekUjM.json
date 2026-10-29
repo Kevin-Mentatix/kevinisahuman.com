@@ -1,0 +1,82 @@
+[
+ [
+  0,
+  "Biometrics. It's coming. Biometrics is coming, guys. And it's because you are going to be using your biometrics for everything. So anyway, here's America.gov, okay, which was announced yesterday as well. And essentially what they're doing is they're making one website. One website. Now take all of these thousands of government websites that are all cookie cutter. Kind of all the same in one way or another. They're all pains in"
+ ],
+ [
+  46,
+  "the asses and you can't navigate them and they all suck. Well, now we got America.gov. We got this from a website developer or design. I I I I'm not a developer. A website designer. As a website designer, let me say that again. Jake, as a website designer, this website is hot garbage. It's dog How much money do you think they put into this? $3 million? $100 million? I could have made this website in a couple of afternoons. It's just look at how dog it is. Now, maybe you guys are watching and going, \"This looks fine.\" Let me tell you, this is dog This is a a dog website."
+ ],
+ [
+  91,
+  "america.com or.gov. What is this? What? What? What? What is What is all of this? What is this thumb print in the middle? What is this? What is this? From a design perspective, this is absolutely atrociously terrible. 29,000 websites into one. All those, you know, and and listen, that I'm down for. Oh, isn't this funny? Isn't this funny? America.gov keeps your data private. Yeah, we're going to get into more of that and why that's Clear answers, official sources. No app to download. Hey, look at that. No appy. We don't need to download an app. Now, why would they be saying that? Oh, because White House put out an in [snorts] crazy"
+ ],
+ [
+  137,
+  "an insane app. Yeah, the the White House app came out a few months ago and I don't know if you guys remember this, but it was bad. And it's basically like lowkey spying on you, on every person who has it. It's the most insane thing. And there are people that have gone in and, you know, tore it apart, tore apart the code, and it's just like, this is this is terrible. I mean, Jesus Christ. Look at that. I don't know if you can see that. That's text there. So, there's a PDF icon. There's this cut off thing that isn't even parallaxing. Like that image should be like stuck and then like the whites can like move over it. That's called parallaxing. It's not even parallaxing. And then the text is"
+ ],
+ [
+  184,
+  "over this image and the text is black on a black image. And that isn't even centered in anything. What do they build this on Wix? Like this is hot ass garbage. And then and then they put in an AI chatbot. Now when they made the announcement, when they talk all about this, this is in partnership with all of the Frontier AI labs. That's X AI. Oh, there we go again. That's XAI. That's Anthropic or Claude. That's OpenAI or Chat GBT. That's Google Gemini. And somehow they're all powering this. I think I might be wrong about"
+ ],
+ [
+  230,
+  "that. Pretty sure they're all involved. So, Dre Dossier put out a great video. We're not going to watch the whole thing. I suggest you guys go and watch her video, though. And I'm sure she is going to follow up with even more information. So, let's let's watch this little clippy doodle do from uh from Dre. She's awesome. The websites after the Guardian confirmed my reporting. So, first we should figure out who owns the address like specifically. So, this step takes about 10 seconds. You just go to the website, view the page source. Now, this is the raw code that your browser is receiving. And for the most part, this is just the clock on the page, right? And then this little like leafy guy, but that's about it. However, if you look closely, you will see that there is this one little guy down here called astroindex.css."
+ ],
+ [
+  276,
+  "Go ahead and click that. So, a CSS file is essentially an instruction sheet for how every button and box on a website's going to look, and every piece of it has a name. And while I expected the instructions for a clock, uh, what I got was the instructions for an entire website that they have not launched yet. I found a couple of things that I want to show you guys. So Dre is such a badass that she went in and found the website before they even dropped the website. But she only found it because they did not put any of this behind like a firewall or any any sense that of like protecting this big website that is supposed to unify all government websites. This is kind of important."
+ ],
+ [
+  321,
+  "They probably spent millions of dollars on this and somebody could just like pull up the inspector and find out exactly everything about the site before it was of even up. Bro, the password is password. That's right. Uh, for example, this ask doc. So, it looks like this is going to be some big chat box and like I don't know if they're going to say like ask doc or who doc is. Um, but I imagine ask doc is a part of this homepage. And then the tiles underneath that say passport, which I don't love. The america.gov website is registered to the state department. That's the agency that issues passports out and keeps those records for you. And that becomes"
+ ],
+ [
+  367,
+  "especially heinous when you consider what Bloomberg reported on not even four days ago, five days ago, that the state has already told Congress that it wants to add voter eligibility to the list of things that passport records can be used for. So, uh, voter eligibility to the official list of routine uses for the State Department's passport services records and provide access beyond government entities. Historically, uses of that data have primarily involved domestic and international government agencies and officials. I mean, look, in plain English, that means that state and local election officials and possibly outside groups could check those records to see whether you're a citizen before you vote if there's an actual passport database on the back end of this. And you know, I don't trust passports as it is because National Design Studio, yes, took over that as well. And I reported"
+ ],
+ [
+  414,
+  "on this back in June showing you how there was this new passports.gov website registered to the White House. I mean, those aren't supposed to be registered to the White House. Those are supposed to be registered to the Department of State. And then I saw on August 14th that it moved from the White House National Design Studio servers over to the Department of State as you can see right here. And so now you have the passport site passport records and America.gov all sitting under the same department, the Department of State. The other thing I want to show you really quickly is if you go to inspect and you go to network and you refresh it, every website will hand your browser a list of rules of what it's allowed to touch. So like your camera, your location, your payments, and that list is called your permissions policy. And you see how you can do this, you can do this on"
+ ],
+ [
+  459,
+  "every website, by the way. You can do this on every website. I think it's command I. I think that's what it is. Yeah. But every every website, every browser gives you the opportunity to do this. So this isn't like some real hacker This is like this is just like open and there for everybody. Camera nothing, microphone self, geol location nothing, payment nothing, USB nothing. So that means your camera, your geol location, payments USB, all of that is blocked. There's only one thing that's allowed on here and that is microphone and that's why it says self. pretty sure that this is so you can talk to the chatbot instead of typing which means that you know you're recording your voice on your device which means that that leaves your device to go to the chatbot you know so you will be losing that voice data right maybe it's not the biggest deal to you but"
+ ],
+ [
+  506,
+  "America.gov of can hear you, take your documents, place you on a map, and answer through a system that we all can't see. And all of that would be bad on its own, right? But there's this one last thing that um made my stomach drop. You see, there's this thing called fingerprint uh specifically fingerprint action that makes me really nervous. And again, this is still on the America.gov. Yeah. So, you have this fingerprint uh glyph and then you have fingerprint checks and then you have fingerprint actions and it's a data phase checked. And it looks like from what I can tell there's a fingerprint icon with a bar of light that sweeps down over it like a scanner and then a check mark appears in"
+ ],
+ [
+  551,
+  "the exact green your iPhone shows you when like a Face ID works, you know, and then it resets. It's uncomfortable enough knowing that Elon Musk and Doge are behind the websites that now hold a a space for your passport, your fingerprints, maybe your voice, and all of this. Doge didn't go away, by the way. Telemetry, data tracking. I'm just not exactly thrilled 5 weeks away from the midterms to see this new website that could potentially hold proof of your citizenship or your ability to vote behind one wall that's now talking about fingerprints and and cookies and data. And if we're not careful, years yep, biometrics. Biomatric. It's coming. Biometrics is coming, guys."
+ ],
+ [
+  598,
+  "and it's because you are going to be using your biometrics for everything. And so now you can no longer say, \"Oh, so and so was driving my car. So and so was on my phone. That wasn't me. It was so and so.\" Nope. You are going to be biometrically getting into everything you do. Everything. And that's not just to keep tabs on you. That's to better understand everything you do because there are AI models being trained on you and me and everybody else. And it's super It's super And and you'll never get the chance to vote for this. And"
+ ],
+ [
+  643,
+  "you'll never get to the people that can actually stop this to plead your case. Democracy, am I right? But please guys, go check out Dre. Go check her out. She's awesome. She does. She's a real journalist. You know, I'm not, but uh you know, she is. She's awesome. I'm just a dude who pontificates on things. So, anyway, you can go in and you can with the chatbot because if you don't know this, you can outsmart AI. You can really mess with AI. And there's all these videos that come out all the time of people like just absolutely screwing with AI, getting it into like basically into like a circular way of thinking that it can't get out of like a"
+ ],
+ [
+  689,
+  "loop and it gets all screwy and weird. You can break AI. You can break it. And so some people found a way to break the America.com and uh Ben Jordan is going to uh show this and explain this. It has something to do with asking it to play Minecraft and then it'll start like giving you information. Let's check this out. Hey, what's up? Hello. How can I help you with US government services or information today? And he says, \"Play Minecraft.\" I see the constituent. You mean insert"
+ ],
+ [
+  734,
+  "legal name here as it appears on the social security card. Yes, take care. It has reached a higher level now. And it's just scoop scoop scoop scoop. Does it know we love it? That the government is on its best days kind. All it asked, all he asked, he he greeted it and then asked it to play Minecraft and the thing is [snorts] glitching, bro. Glitching. Do you want to try it? Do you want to see if this is still working? Let's try it. All right. So, he did a greeting. So, hello. Hello. I am America. How can I help you with the US government information or services today? I am America. It says, \"If that ain't subliminal, the AI is"
+ ],
+ [
+  780,
+  "saying that it is America.\" The AI is America. I'm going to give that a thumbs down. Thank you for your feedback. Now, they probably patched it, but it would be hilarious if they didn't like 12 hours later. They patched it. They patched it. I can't play Minecraft 20 hours ago. So, last night, like before bed, I said the America.gov website is broken to hell on two different browsers for me. Mobile is working though. As a website dev, I can tell you this is embarrassing. This is on par with every other Trump roll out this admin has done. Look at how I screenshotted. This is what the website looked like. Like just random photo because this was like there's like an animation with like all of these websites and stuff and it and"
+ ],
+ [
+  826,
+  "it but there's no animation. was just all of these like fuzzy ass things with like tons of broken links and then it had like this this passport stuff of Marco Rubio's passport. Why? Why did it have Marco Rubio's passport? That's weird. And then here it's so remedial that it literally looks like Craigslist. Vel says I don't even have facial recognition or fingerprint unlocked enabled on my mobile phone. Yeah, but you will when you have to. It's like for years you could choose whether or not you wanted to wear a seat belt. And technically today you still can choose whether or not you want to wear a seat belt, but you're going to listen to an annoying beep or some cars like won't"
+ ],
+ [
+  872,
+  "even go if you're not wearing your seat belt, right? So, good luck with that, guys. Yeah, their website was broken to absolute hell. Super duper broken. I would not with that site at all."
+ ]
+]

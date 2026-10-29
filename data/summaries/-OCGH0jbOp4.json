@@ -1,0 +1,55 @@
+{
+ "metaDescription": "Kevin reviews Leah Files' Stu Peters interview on the surveillance state, covering Flock, Axon, Palantir, Toka, Carbyne and Shawn Ryan's investments.",
+ "summary": "This livestream is Kevin's breakdown of Leah Files' appearance on Stu Peters' show, where she named investors she says she was told not to discuss on Shawn Ryan's podcast. Kevin and the clips cover Peter Thiel, Founders Fund, Andreessen Horowitz, Joe Lonsdale and Palantir, Flock Safety, Axon, Anduril, Toka, Carbyne and Cellebrite. Leah alleges Toka can alter video, and Kevin argues video evidence should be doubted. Kevin also discusses her claims about Ryan's Glacier privacy app, a reported PHP exploit wave, his panopticonindex.com database, and ways to pressure officials over surveillance contracts.",
+ "keyMoments": [
+  {
+   "t": 280,
+   "label": "Intro And Leah Files Background"
+  },
+  {
+   "t": 1152,
+   "label": "Leah's Investor Money Map"
+  },
+  {
+   "t": 2076,
+   "label": "Flock, Axon And License Plate Scanning"
+  },
+  {
+   "t": 2766,
+   "label": "Toka, Epstein And Tyler Robinson Footage"
+  },
+  {
+   "t": 3135,
+   "label": "PHP Exploit And Internet Outages"
+  },
+  {
+   "t": 4964,
+   "label": "Israeli Tools And Shawn Ryan Investments"
+  },
+  {
+   "t": 5882,
+   "label": "Glacier Privacy App Claims"
+  },
+  {
+   "t": 6434,
+   "label": "Panopticon Index And Taking Action"
+  }
+ ],
+ "entities": [
+  "Leah Files",
+  "Shawn Ryan",
+  "Stu Peters",
+  "Peter Thiel",
+  "Founders Fund",
+  "Andreessen Horowitz",
+  "Palantir",
+  "Flock Safety",
+  "Axon",
+  "Anduril",
+  "Toka",
+  "Carbyne",
+  "Cellebrite",
+  "Glacier",
+  "Panopticon Index"
+ ]
+}

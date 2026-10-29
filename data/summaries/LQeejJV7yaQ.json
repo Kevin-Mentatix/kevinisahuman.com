@@ -1,0 +1,36 @@
+{
+  "metaDescription": "Kevin discusses a cult forming in Silicon Valley around building an AI god, citing Sam Altman, OpenAI whistleblowers and the 42 scene.",
+  "summary": "Kevin argues that a cult is forming in Silicon Valley around building artificial super intelligence, which he says some believers see as creating a god. He describes Sam Altman as a major liar, mentions the death of an OpenAI whistleblower he calls Suchir Balaji, and notes senior researchers leaving Anthropic, Google, and OpenAI. He draws on The Hitchhiker's Guide to the Galaxy to say asking better questions matters, and says the field is split between deity-builders and those fearing destruction.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "A Cult Forming Around Super Intelligence"
+    },
+    {
+      "t": 138,
+      "label": "Kevin's Experience Using AI and Claude Code"
+    },
+    {
+      "t": 230,
+      "label": "OpenAI Whistleblower and Researcher Exodus"
+    },
+    {
+      "t": 370,
+      "label": "Hitchhiker's Guide and the Answer 42"
+    },
+    {
+      "t": 510,
+      "label": "Deity Builders Versus Doomsday Fears"
+    }
+  ],
+  "entities": [
+    "Sam Altman",
+    "OpenAI",
+    "Artificial super intelligence",
+    "Suchir Balaji",
+    "Tucker Carlson",
+    "Anthropic",
+    "The Hitchhiker's Guide to the Galaxy",
+    "Claude Code"
+  ]
+}

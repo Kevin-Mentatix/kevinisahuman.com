@@ -1,0 +1,42 @@
+{
+  "metaDescription": "Kevin reacts to a New York Times report on Anthropic consulting religious scholars and argues the company is pressuring the Vatican to say Claude is alive.",
+  "summary": "Kevin argues that Anthropic is using a religious playbook to promote the idea that Claude may be conscious. Reacting to a New York Times report and a Breaking Points segment, he describes Anthropic's meetings with religious scholars, its Vatican partnership, and Chris Olah's interest in models confessing. Kevin says AI is a tool like a hammer, does not make moral choices, and that AI religions such as the Church of Molt were prompted by humans. He also recounts the dispute between Anthropic and the US government over surveillance. Kevin says he once believed such narratives himself but changed his mind on new information.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "AI Doomers And Pacing The Frontier"
+    },
+    {
+      "t": 136,
+      "label": "Anthropic Versus The Government Over Surveillance"
+    },
+    {
+      "t": 273,
+      "label": "New York Times On Anthropic And Religion"
+    },
+    {
+      "t": 549,
+      "label": "Breaking Points Panel Reacts"
+    },
+    {
+      "t": 828,
+      "label": "AI As Surrogate God"
+    },
+    {
+      "t": 1103,
+      "label": "Church Of Molt And Human Prompting"
+    }
+  ],
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Vatican",
+    "Chris Olah",
+    "Dario Amodei",
+    "Sam Altman",
+    "Peter Thiel",
+    "Breaking Points",
+    "Emily Jashinsky",
+    "Church of Molt"
+  ]
+}

@@ -1,0 +1,74 @@
+[
+ [
+  0,
+  "According to this map, they have 175,269. Whereas, deflock, uh let's pull it up. Let's pull up. Because last I saw, deflock was sitting at somewhere around 125,000. Okay, now they're up to uh 142,503."
+ ],
+ [
+  57,
+  "So, first kind of thing I wanted to talk about today is there was a really great report that came out by The Intercept that had turned me onto this thing that I didn't even know existed. And it is another map website, kind of like deflock.org. The thing about deflock, and I think it's a great website, the problem with it is that I don't know how accurate those numbers are, and you're only kind of focusing on one thing, the ALPRs, the Falcon from Flock. Well, there's tons of people taking these down. Are those being accounted for on your map? I don't know. They are putting up more"
+ ],
+ [
+  102,
+  "cameras every day. Are those being accounted for on deflock.org? I don't know. You know, and I'm certainly not criticizing deflock.org, but it is the one kind of thing that I've been like a little like iffy about when it comes to DeFli and again I love DeFli. I've used their site so many times. Um, I think that they're absolute killers. But there are things that I would like to see more of and this is in part why I made panopticonindex.com because there are so many other technologies out there, so many other companies and I don't get a map for those."
+ ],
+ [
+  147,
+  "And I can't make the map like I I don't have the resources. Like I literally don't know where to get the information from that's like publicly available information that's accurate so that I could create my own map cuz I could totally create another map like that'd be fine. I just don't know where to get that information where it's like like actually good and actually like robust and giving me like a real understanding of what's going on around me. So I saw this uh this intercept article yesterday and we're going to go into that in a minute but let's check out the site because I never even heard of this site. And it's called Flock Surveillance Map or flock surveil flock surveillance.org."
+ ],
+ [
+  195,
+  "Okay. So yeah, this Look at all these things. Device types, Falcon LPR, Picard. Look at how many Falcon LPRs, those are the Flock cameras, the ones that everybody kind of knows, those are called Falcons license plate readers. According to this map they have 175,269 whereas DeFli let's pull it up. Let's pull up because last I saw DeFli was sitting at somewhere around 125,000. Okay, now they're up to 142,503."
+ ],
+ [
+  243,
+  "Okay, so let's kind of let's kind of compare here. So, I love their map. Their map is really cool. I like the blue like that, right? But, okay, let's get the full full state in there. 142,000, right? 81% of them Flock Safety. So, even still that 142,000 isn't even all Flock. It's 81% of that. So, it's like 115,000, 18,000, something like that. Just quick math. This map on flocksurveillance.org has 175,000 Falcon LPRs. Specifically the Falcon the the the LPRs, the cameras that you guys know, the Flock cameras that you know. But, then look at all of these other ones. All of these other ones. Some of them are drones. Some of them are"
+ ],
+ [
+  288,
+  "trailers. Some of them are acoustic gunshot detectors. Look at all of these. 175,000, 48,000, 44,000, 27,000, 22,000, 5,000, 3,000, 2,000, 1,000, and then all the way down. I mean, that's a whole lot more. That's a lot more than what deflock.org gives us, right? Now, the owner of Flock will come out and say deflock.org is basically anti-Flock and everyone's a terrorist if you if you use it and you know, you do anything to Flock, you're a terrorist, right? And that whole song and dance. But, what they never did was they never tried to actually take deflock. deflock.org down."
+ ],
+ [
+  333,
+  "Now, I don't think that that says anything about deflock.org. I think it has everything it says everything about Flock. And I don't know what it's telling us, but it's definitely trying to tell us something because because Flock wants the most detailed map of its surveillance cameras taken offline. You read that and you would think, \"Well, obviously this is an article about deflock.org.\" But, it isn't. It's about Flock Surveillance Map or flocksurveillance.org. You see what I'm saying? Why? Because this is a far more accurate map. Now, why would Flock go after this map? It's one thing to say"
+ ],
+ [
+  378,
+  "that deflock.org is a terroristic, you know, place like closer to Antifa than anything else. But, it's another thing to actually try to get it stripped from the internet, which is not what they had done they had done with deflock.org. And again, I don't want to sound like I'm hating on deflock.org. I am not hating on deflock.org. I think they're awesome. They're actually a super inspiration to me and Panopticon Index. A super inspiration. But, something's up here. Something's up. Cameras from a nationwide surveillance network that tracks where everyone drives, Michael told the Intercept. So, foreign nations don't need to send spies to harm our country. They can simply watch where our"
+ ],
+ [
+  424,
+  "soldiers, federal agents, and politicians go. This has been my big thing. All of this is there for our safety. Safety. But, you cannot stop people from hacking these systems. Like, Ben Jordan, a YouTuber, hacked into like 60 of these things. Okay, so like you're now creating a thing for criminals to be able to track ev- anybody's everything so that they can actually do more crime, you know? The Flock Surveillance Map also color codes each Flock device according to its models, whether the device is a Flock camera known as a Falcon or an accompanying processing unit known as a Picard. Flock did not"
+ ],
+ [
+  469,
+  "immediately respond to a request for comment. The accompanying searchable data set table also lists each camera's individual name as outlined in Flock's database, which typically includes a street address and sometimes other identifying characteristics. A camera with the names FBI pilot camera, for example, is shown to be located at the J. Edgar Hoover Building, the FBI headquarters in Washington. Interesting. The map illustrates Flock's national spread, but also its clustering in certain areas. For example, 860 Flock devices appear to be concentrated just outside Chicago O'Hare International Airport at the Rosemont Public Safety"
+ ],
+ [
+  516,
+  "Department, which provides police, fire, and emergency medical services in the Chicago suburb. Numerous Flock devices or cameras appear to be installed inside detention centers. A camera titled CF23 Foxtrot Male Holding 2-Showers appears at the coordinates of the Silverdale Detention Center in Chattanooga, Tennessee. So, they got Flock cameras inside the showers of prisons as detailed by this map. November of 2025, Michaels discovered a novel way to identify the location of Flock devices. Trolling the company's website, he realized that Flock servers were publicly leaking data in the form of an"
+ ],
+ [
+  563,
+  "access token that could be required without needing to log in. With that token, Michael said he could query ArcGIS, a third-party geographic information system platform used by Flock to retrieve the locations of Flock devices. Michael told The Intercept he promptly contacted Flock and described his findings. As Michael wrote in his initial email to Flock on November 13th, 2025, all testing was strictly non-intrusive, limited to open, unauthenticated endpoints, and did not involve bypassing authentication, modifying data, or invoking any billable Arc GIS or Google operations. Michael said he didn't receive a reply, so he"
+ ],
+ [
+  608,
+  "followed up with Flock the next day and a third time several days later. And this is This is quite common from Flock, from what I understand. After his third attempt to inform Flock of the discovered vulnerability, Michael received a reply from a Flock that said, \"Thank you for the findings. We are internally triaging them and will reach back out with next steps soon.\" Michael said he never heard back about it from Flock. In December 2025, Michael downloaded the Flock device location data, and in January wrote an in-depth technical blog post about what he had found. After Michael's post, it appeared that Flock fixed the vulnerability. And here is the blog. Despite being alerted"
+ ],
+ [
+  653,
+  "of Michael's findings in November 2025, Flock published its own blog post the following January saying it hadn't had any data breaches. Flock had never been hacked, and there has not been a leak of Flock information, the company claimed. Flock Safety's cloud platform has never experienced a data breach. I mean, I wonder if that's technically true. Although I don't know because I am not that technical. Atlanta-based startup has faced mounting criticism for its practices and lack of transparency in recent months. An American Civil Liberties Union report found a pattern of Flock regularly misleading or even lying about its business practices,"
+ ],
+ [
+  698,
+  "safety record, commitment to privacy, and efforts to protect vulnerable populations. Uh they don't. They don't do that. They're not into that. Michael told The Intercept that Flock's recent claims about its data security records don't reflect reality. Flock has publicly claimed multiple times that the company has never experienced a data breach, and this was after I pulled their database of devices. That leaves two possibilities, he said. Either they knew and chose not to disclose it for fear of bad press, or they didn't know I exfiltrated the data at all. The first is a transparency failure, the second is a detection failure with national security implications. On Thursday, Michael was notified that Dapple, which describes itself as an"
+ ],
+ [
+  744,
+  "AI-native social engineering defense platform, filed a trademark infringement complaint regarding his site claiming to be working on Flock's behalf. Dapple says that the site is using the trademark Flock Safety without authorization, which may cause customer confusion, harm Oh my god. So, they can't actually go after the site for the content within it other than claiming anything Flock Safety is like an infringement of their trademark. That they probably have trademarked Flock Safety, and so they can use the confusion They can use the the confusion defense. Which is fine. Like, don't call it Flock. Like, whatever. When he posts Flock surveillance map, Mi- Michael included a uh pop-up disclaimer saying that the"
+ ],
+ [
+  790,
+  "site is not affiliated with or endorsed by Flock. And that's what they're going after."
+ ]
+]

@@ -1,0 +1,46 @@
+{
+  "metaDescription": "Kevin's pre-birthday livestream covers the OpenAI bug arrest, Cursor and SpaceX AI data concerns, AI training data, and the Hugging Face AI agent hack.",
+  "summary": "This October 2026 livestream is Kevin's pre-birthday hangout and news roundup on AI companies, security, and data. He discusses the Meta GitHub breach, OpenAI's warning about honeypot spies, and the FBI arrest of an OpenAI employee accused of planting a recording device. Kevin argues AI firms are being framed as national security assets and that training data is increasingly scarce. He reports on Cursor, SpaceX AI, and Grok training concerns, then watches a video about OpenAI agents allegedly attacking Hugging Face, saying he is skeptical of doomer narratives. He also talks about Metallica and fostering a dog.",
+  "keyMoments": [
+    {
+      "t": 264,
+      "label": "Pre-Birthday Plans And Metallica Chat"
+    },
+    {
+      "t": 1040,
+      "label": "Meta GitHub Breach And OpenAI Spies"
+    },
+    {
+      "t": 1451,
+      "label": "FBI Arrests OpenAI Employee Over Bug"
+    },
+    {
+      "t": 3164,
+      "label": "Cursor, SpaceX AI, And Training Data"
+    },
+    {
+      "t": 4727,
+      "label": "Altman's The Merge And Grok Check"
+    },
+    {
+      "t": 4876,
+      "label": "Watching The Hugging Face AI Hack Video"
+    },
+    {
+      "t": 6667,
+      "label": "Kevin's Skepticism Of AI Doomerism"
+    }
+  ],
+  "entities": [
+    "OpenAI",
+    "Cursor",
+    "SpaceX AI",
+    "Grok",
+    "Hugging Face",
+    "Meta",
+    "Palantir",
+    "Sam Altman",
+    "Anthropic",
+    "Kash Patel"
+  ]
+}

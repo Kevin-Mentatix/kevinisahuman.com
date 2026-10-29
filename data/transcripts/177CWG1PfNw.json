@@ -1,0 +1,66 @@
+[
+ [
+  0,
+  "They're doing the same exact thing here, guys. The same exact here. In 2023, Palantir won a 330 million pounds 7-year contract to build a data platform for the UK's National Health Service. The NHS had, at the time, a"
+ ],
+ [
+  45,
+  "whole load of problems. Since the pandemic, the waiting list for non-urgent surgeries had completely exploded, and a lot of people were stuck waiting around for routine operations, or stuck in hospital beds because they couldn't be discharged. The whole idea was that Palantir would come in and help the NHS connect up like a whole bunch of disconnected systems. Databases on waiting lists and staffing and treatment, and bring them all into one unified system. Now, if you're not from the UK, you might not be quite so familiar with how bad we are at building literally anything. You might even be like optimistic about this kind of idea at first glance, cuz it kind of makes sense that a hospital should be able to see all of the data on its patients in a single place, right? But, this is the UK we're talking about. And now, a few years later, we actually have some numbers on how well this program has"
+ ],
+ [
+  91,
+  "worked. The Health Foundation, which is a major nonprofit in the UK, released a major analysis of the hospitals that were using one of these Palantir tools. They focused on patients who could have been discharged from hospital, but were stuck because of things like admin issues, and found that there was no noticeable improvement in performance from using the Palantir platform. Apparently, the numbers had actually been improving before the hospitals adopted this tool, and then they got worse in the year after they adopted it. Not long after that, the UK's health minister actually came out and apologized because they not realized that random Palantir engineers actually had unlimited access to patient data and could identify individuals from it. Despite this, Palantir has become over the years more and more integrated into the UK government to the point where they basically run the thing now. They"
+ ],
+ [
+  137,
+  "recently won a 240 million pound contract with the UK's Ministry of Defense, which is actually the biggest contract that the Ministry of Defense has ever awarded in its entire existence. And the 330 million pound contract that they got is now estimated to cost the UK about a billion pounds in total. Not many people associate Palantir with the UK, but today they do basically own the UK government. And it's worth knowing how we kind of got here because there's a good chance that you can see this story playing out in other countries across the planet as the years go on. So, the UK has been obsessed with Palantir for a hot minute now. Way back in 2008 Yeah. Do you know what happened in 2008? Well, Okay. Little history. We talked about it on a 9/11, but since I I wasn't happy with that video. I'm"
+ ],
+ [
+  182,
+  "going to redo that video as like a real YouTube video here soon. But, Palantir is kind of born out of the the end of Total Information Awareness. And it was initially funded by In-Q-Tel, which is the CIA venture firm. And the CIA is its only client from 2003 until 2008. So, it's interesting that once they took on more clients, one of the first ones may have been England, I think is what they're saying. I might I might have I might be jumping the gun a little bit there. 2008, GCHQ, which is one of the UK's spy agencies, got a demo of Palantir's"
+ ],
+ [
+  227,
+  "flagship project, which is named Gotham. Palantir developed Gotham using CIA investment, and the whole idea was that they could create one platform to integrate a whole bunch of data source. What's crazy is if I have the data, I could literally make this with cloud code in like a couple of days. And I'm an idiot who can't code anything. is in order to make it easier to carry out operations in the Middle East. In the demo, they showed that it could be used to track down members of like a fictional terror group by using their Wikipedia account activity and combining it with like flight records and mobile phone calls and social media activity and use all of that to identify whatever kind of person you're looking for. And today this this is what Palantir is especially well known for. It's used mainly by the US and Israel in their military targeting and identifying"
+ ],
+ [
+  272,
+  "potential suspects to investigate. But that is not all they do because this whole time they've also been working on a separate arm of the business. As Palantir has grown, they've realized that there is a lot of money outside of the military as well and they're trying really hard to capitalize on that. About a decade ago, they created a separate project called Foundry and that's like the civilian version of Gotham. It's supposed to integrate a bunch of separate business data instead of military information and it's the version that's used by companies like Airbus and Wendy's to track their supply chains. And this is when I talk about the aggregators, this is what I mean. Palantir's aggregating all of that information. Like all of this information. Like each one of those is its own data set. Each one of those is its own thing."
+ ],
+ [
+  319,
+  "But they take it all, all the data and use sophisticated AI modeling to run the master like dossier on every person or every institution or every everything, basically. Everything. everything. and like deliveries and things like that. But it is also the version that is marketed to governments for domestic use. And in the pandemic, they really got their chance to shine. In order to get to where you have literally billions of dollars of contracts with the UK government, you kind of have to work your way up the levels, you know? In the pandemic, Palantir started by offering to build a system that would track medical equipment and make sure that masks and ventilators and other PPE was making it to the right place at the right time. So, they charged a symbolic"
+ ],
+ [
+  364,
+  "£1 to build this system, you know, like a like a crack dealer, the first hit is free, baby. But, that £1 contract rapidly ballooned to a lot more than £1. The £1 contract became a £1.5 million renewal. That then became a £23 million renewal. And that is now a £330 million contract, which is now forecast to cost the UK government over a billion pounds over the lifetime of the project. By the way, in their own numbers, they recently admitted that they're going to be spending a billion pounds, but they're only going to get 800 million pounds of benefit from it. It's It's crazy, right? You couldn't destroy that much money if I gave you like suitcases full of cash and asked you to set them on fire. Crazy. Yeah. Uh Anyways, Palantir has amassed an"
+ ],
+ [
+  411,
+  "incredible amount of power within the UK, and they do this by aggressively hiring anyone who has any kind of power within the NHS. This is like a short list of some of the people they've hired. They had Leo Docherty, who was a former UK defense minister, who quit the government to join Palantir. Lawrence Lee, who was a Ministry of Defense senior AI official. Tom Watson, who was the former deputy leader of the Labour Party, which is currently in power in the UK. And I think one of their most egregious hires is Indra Joshi, who was NHS England's director of AI. In total, there's been at least 32 high-profile people who've left the UK government to join Palantir. And that includes like two former ministers, a former spy chief, a chief advisor to the Prime Minister, and two army generals. And sometimes they don't even wait for the"
+ ],
+ [
+  456,
+  "people to leave the government before they hire them. You have some people like Tim Peachie, who was on Palantir's health advisory board while still a director in the NHS. Another guy was moonlighting as a lobbyist for Palantir while running four hospital trusts. And I you know, I'll stop there cuz we could go forever, right? There are so many people that they've hired from the government. And Palantir has set up this revolving door system where the senior leadership inside the public services knows that if they're nice to the Palantir guys, there's probably a good job waiting for them in the future. And that has given them a lot of power inside of the UK government. And it's kind of independent of whether or not And this isn't just a UK problem. This isn't just a UK problem. They're doing the same exact thing here, guys. The same exact here. It ain't that"
+ ],
+ [
+  503,
+  "different. It ain't that different. actually work well. When it comes to whether the products actually work, right? You don't have to listen to me because I am not a doctor, but you can listen to the people who actually use it. The FT interviewed one NHS data analyst who said that the FDP, the Palantir platform, doesn't do what it says on the tin. What we've got is essentially a database with some applications on top. It's being presented as something that connects and unifies all NHS data to improve care. It doesn't do that. I think that's pretty clear. The FT also did a bunch of freedom of information requests and they found that any internal criticism of Palantir during the time when these contracts were being negotiated got shut down really quickly. They got a bunch of government emails and found that when a different official tried to write an article that was critical of the way"
+ ],
+ [
+  548,
+  "that Palantir runs these kind of contracts, her came out and told her to literally rewrite the article. Otherwise, it would create significant problems for her if she didn't soften up the inflammatory language around Palantir. And it's not even like the doctors in the hospitals are on board, either. The BMA, which is the union that represents doctors in the UK, officially says that it longer opposes the involvement of Palantir in the delivery of care. It's pretty clear that nobody who actually works in the the wants these kind of systems, but they still keep getting built somehow. Despite all of this, Palantir keeps getting UK contracts because the UK government is basically completely compromised by lobbyists. And it is quite concerning that this is the way that the NHS makes decisions, but probably the bigger concern is that the UK can't even get out of these"
+ ],
+ [
+  594,
+  "contracts, and it ends up becoming a subscription for life. In a lot of these cases, the contract is given as a no-bid contract, where the government basically says that no other company on the planet can provide the services that Palantir can provide, and so they just give the contract directly to Palantir without advertising it publicly for other companies. And in that case, if you don't own the data and you don't own the analysis, you're basically just renting access to a Palantir platform for life. If you don't have a built-in way to take the data out of the platform, then your access to that data is contingent on Palantir giving you access to your data. And other countries have realized this, even in Europe. In France, Spain, and Germany, they're all like canceling these Palantir contracts in order to benefit home-grown businesses, but the UK seems to claim that nobody in the UK"
+ ],
+ [
+  639,
+  "can do what Palantir does. Things are changing ever so slightly. And this is it. This is like this person just literally spelled it all out. It's actually spelled out, wrapped up in a bow for you, right there. And it's not just a UK problem. That is 1,000% what is happening in the United States right now as well. Probably even more insidious than that because it started here. It's an American product. Day one. They're day one here. Anyhow, that's that's that's one I thought was worth looking at because Palantir is a issue. And somebody said something about like of"
+ ],
+ [
+  685,
+  "course the reptile. Yeah, villain and and and valley. Yeah, who who would have guessed that the reptile is involved? If you don't know, the reptile is like if you jumble up Peter Thiel, it spells the reptile. And yeah, he's always involved. Always involved. Absolutely always involved."
+ ]
+]

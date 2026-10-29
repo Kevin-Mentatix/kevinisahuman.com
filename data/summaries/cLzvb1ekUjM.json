@@ -1,0 +1,41 @@
+{
+ "metaDescription": "Kevin critiques America.gov, a unified government site built under the State Department, citing exposed code, an AI chatbot, and fingerprint features.",
+ "summary": "Kevin reviews America.gov, a new site merging roughly 29,000 government websites, and calls its design poor. Drawing on journalist Dre Dossier's reporting, he says unlaunched site code was exposed, the site is registered to the State Department, and it appears to include a voice-enabled chatbot and fingerprint-check interface elements. Kevin cites a Bloomberg report that the State Department wants passport records usable for voter eligibility checks. He notes a viral glitch in which telling the chatbot to play Minecraft produced odd replies, and argues biometrics will become mandatory for everyday activity while AI models train on the data.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "America.gov Launch And Design Critique"
+  },
+  {
+   "t": 230,
+   "label": "Dre Dossier Finds Unlaunched Site Code"
+  },
+  {
+   "t": 367,
+   "label": "Passport Records And Voter Eligibility"
+  },
+  {
+   "t": 459,
+   "label": "Permissions Policy And Fingerprint Features"
+  },
+  {
+   "t": 689,
+   "label": "Chatbot Glitch: Play Minecraft"
+  },
+  {
+   "t": 826,
+   "label": "Broken Site And Mandatory Biometrics"
+  }
+ ],
+ "entities": [
+  "America.gov",
+  "State Department",
+  "Dre Dossier",
+  "National Design Studio",
+  "Biometrics",
+  "Bloomberg",
+  "DOGE",
+  "White House app",
+  "Frontier AI labs"
+ ]
+}

@@ -1,0 +1,7 @@
+dist/
+data/raw/
+data/fetch.log
+scripts/og/og.png
+.DS_Store
+node_modules/
+worker/.wrangler/

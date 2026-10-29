@@ -1,0 +1,11 @@
+{
+  "metaDescription": "Kevin asks what single shared point of failure could have taken AI companies like Anthropic and OpenAI offline at the same time.",
+  "summary": "Kevin asks what shared dependency could have knocked several independent AI companies offline at the same time during a synchronized outage. He says few people are asking about this single point of failure and that most have forgotten the event happened.",
+  "keyMoments": [],
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "ChatGPT",
+    "AI outage"
+  ]
+}

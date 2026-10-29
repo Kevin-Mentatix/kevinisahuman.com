@@ -1,0 +1,35 @@
+{
+  "metaDescription": "Kevin covers the ShinyHunters breach of FBI employment data reported by 404 Media, including the PeopleSoft exploit and the group's demands.",
+  "summary": "Kevin reviews reports that the hacking group ShinyHunters breached FBI employment systems, allegedly taking data on FBI employees and applicants. Citing 404 Media, which broke the story, he reports that a 5,000-record sample included names, addresses, phone numbers and spouse details, and that the group claims a zero-day exploit in Oracle's PeopleSoft and access to AWS GovCloud servers. According to the report, the group wants an FBI advisory about it removed. Kevin also speculates on AI-assisted hacking and criticizes the FBI under Kash Patel.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "ShinyHunters Claims To Hack The FBI"
+    },
+    {
+      "t": 45,
+      "label": "News Report On FBIjobs.gov Breach"
+    },
+    {
+      "t": 272,
+      "label": "404 Media Reports Stolen Employee Data"
+    },
+    {
+      "t": 457,
+      "label": "Site Defacement And PeopleSoft Exploit"
+    },
+    {
+      "t": 593,
+      "label": "Not Extortion: ShinyHunters Demands Retraction"
+    }
+  ],
+  "entities": [
+    "ShinyHunters",
+    "FBI",
+    "404 Media",
+    "Oracle PeopleSoft",
+    "AWS GovCloud",
+    "Kash Patel",
+    "fbijobs.gov"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kevinisahuman",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "transcripts": "node scripts/transcripts.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && python3 -m http.server 8787 -d dist"
+  }
+}

@@ -1,0 +1,50 @@
+{
+ "metaDescription": "Kevin argues the surveillance state goes beyond Flock Safety, citing police stalking cases, the Fourth Amendment, and misuse of license plate readers.",
+ "summary": "Kevin argues that Flock Safety is one piece of a broader surveillance state and that police have abused such tools against women for decades. He cites AP reporting from 2016, Minnesota and California audits, and a Washington Post investigation he says found at least 50 officers accused of misusing license plate readers, plus named cases in Georgia, Wisconsin, Florida, and Ohio. He also covers the Texas abortion search, immigration lookups, Ben Jordan's hacking of Flock feeds, and a PBS NewsHour segment. Kevin says the Fourth Amendment is being violated and urges viewers to raise awareness.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Flock Is Not The Only Problem"
+  },
+  {
+   "t": 182,
+   "label": "Fourth Amendment And Surveillance Loopholes"
+  },
+  {
+   "t": 457,
+   "label": "Decades Of Police Database Abuse"
+  },
+  {
+   "t": 638,
+   "label": "How Flock ALPRs Work And Scale"
+  },
+  {
+   "t": 1049,
+   "label": "Officers Charged With Stalking Women"
+  },
+  {
+   "t": 1510,
+   "label": "Immigration Searches And Federal Access"
+  },
+  {
+   "t": 1967,
+   "label": "PBS Report And Flock Defenders"
+  },
+  {
+   "t": 3112,
+   "label": "Spreading Awareness And Reclaiming Power"
+  }
+ ],
+ "entities": [
+  "Flock Safety",
+  "ALPR",
+  "Fourth Amendment",
+  "404 Media",
+  "Electronic Frontier Foundation",
+  "Ben Jordan",
+  "Axon",
+  "Washington Post",
+  "ICE",
+  "Institute for Justice"
+ ]
+}

@@ -1,0 +1,10 @@
+name = "kiah-websub"
+main = "index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+CHANNEL_ID = "UCW0thOneTVu_df6DBdfRD6w"
+REPO = "Kevin-Mentatix/kevinisahuman.com"
+
+# Secrets (set with `wrangler secret put`): HUB_SECRET, GITHUB_TOKEN

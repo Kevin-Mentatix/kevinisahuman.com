@@ -1,0 +1,40 @@
+{
+  "metaDescription": "Kevin compares the Flock Surveillance Map with DeFlock, covering an Intercept report on Flock's camera counts, a data leak, and a trademark complaint.",
+  "summary": "Kevin discusses a Flock Surveillance Map, flocksurveillance.org, which he says lists about 175,000 Flock Falcon license plate readers, more than the roughly 142,000 devices on DeFlock. Citing an Intercept report, he describes how its creator, Michael, found a leaked access token in Flock's systems, how Flock disputed any data breach, and how a company called Dapple filed a trademark complaint against the site. Kevin argues this suggests Flock wants the map removed and promotes his own site, Panopticon Index.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Flock Camera Counts Compared"
+    },
+    {
+      "t": 57,
+      "label": "DeFlock, Panopticon Index And Mapping Limits"
+    },
+    {
+      "t": 243,
+      "label": "Flock Surveillance Map Versus DeFlock Numbers"
+    },
+    {
+      "t": 469,
+      "label": "Where Flock Cameras Are Clustered"
+    },
+    {
+      "t": 563,
+      "label": "Leaked Access Token And Flock's Response"
+    },
+    {
+      "t": 744,
+      "label": "Dapple Trademark Complaint Against The Map"
+    }
+  ],
+  "entities": [
+    "Flock Safety",
+    "DeFlock",
+    "Flock Surveillance Map",
+    "The Intercept",
+    "Panopticon Index",
+    "ACLU",
+    "Dapple",
+    "Ben Jordan"
+  ]
+}

@@ -1,0 +1,66 @@
+[
+ [
+  0,
+  "The FBI was hacked. The FBI got hacked by a group that sounds like Pokémon collectors. They call themselves the Shiny Hunters. And it is causing quite a commosh. It's causing quite a commosh."
+ ],
+ [
+  45,
+  "could be at risk for thousands of FBI agents and people who have applied to work at the bureau. A notorious hacking group known as Shiny Hunters reportedly claims it breached the bureau's systems and stole a huge amount of data. The FBI says it is now investigating and justice correspondent David Spunt is on the story. David. Hi Harris, this reportedly affects past, present, maybe even future FBI employees. As you mentioned, personal information including home addresses stolen. Reuters is reporting that the digital extortion group, as you mentioned, announced it had breached FBI employment files affecting current and former employees. According to Reuters, their reporter chatted with a member of the hacking group who claimed that the Shiny Hunters group stole data that"
+ ],
+ [
+  90,
+  "included personal information relating to quote almost all FBI agents and those who filed an application with the bureau. This means recruits and potential future agents. Now, the story was first reported by a group called 404 Media. The FBI meanwhile, Harris, is keeping the cards close to the vest only telling Fox News in a statement the FBI is aware of claims regarding unauthorized activity affecting FBIjobs.gov and is currently investigating. When you hear that the FBI's been quote-unquote hacked, I think a lot of people go directly to, \"Oh my gosh, they have all the classified information and all the secret files.\" But really, this is an employment website. Doesn't mean, you know, that that information is not uh useful for criminals, but it's not the secret and classified information"
+ ],
+ [
+  135,
+  "that a lot of people think it is. Unclear how far and how deep this cyber hack goes, but the group said it's reportedly not financially motivated here. It wants an FBI advisory criticized in the group from earlier this year taken down. And right now, when asked for more information, the bureau referred us to the statement that I just read. But again, it's unclear how the FBI will respond in the coming days to this, Harris. A few days ago, the Australian government had come out and said that somebody using cloud code had hacked the Australian government. A few months ago, somebody who's never written a line of code in his life hacked the Mexican government and actually got really sensitive information about pretty much every Mexican citizen. It's real. Like is"
+ ],
+ [
+  181,
+  "is going down, guys. Now, how much of it's real, I actually don't know. This FBI story is not claiming that they used AI. They're not They're not making that claim. But let's just be honest, like AI agents allow hackers to do a lot more, just like they help anybody amplify their workload. So, I don't know. We are living in a psyop where the frontier AI companies are definitely making up a lot of about AI doomerism, how it's going to kill us. And somehow this keeps"
+ ],
+ [
+  226,
+  "raising their stock portfolio or interest from um investors. Which is really interesting. But, let's get back to the FBI cuz it took a little bit of a tangent there. And speaking of awesome publications, 404 Media, go check them out. They're awesome. They are the They are the ones that are breaking all of this tech news, all of this AI stuff, all of this surveillance state stuff. These guys. These guys are the ones and I actually support them. I have an account with them. I support them. I think they're awesome. And uh, and you should at least follow 404 Media on uh, on like whatever social platforms you're on."
+ ],
+ [
+  272,
+  "Okay, but let's look at this article. \"Hacked the FBI. Hackers say they have data on all FBI employees.\" And by the way, 404 Media's who actually broke this entire story. They even said it in that news uh, that we saw, that news clip. They said they credited 404, okay? \"A sample of 5,000 alleged agents seen by 404 Media includes names, addresses, phone numbers, and details on FBI employees' spouses.\" That's not just the FBI agents, but their spouses, all of their information. Because the FBI needs that apparently for some reason. That totally doesn't sound sketchy at all. \"A high-profile hacking"
+ ],
+ [
+  319,
+  "group claims it has breached multiple FBI-related services and stolen data on all FBI employees and applicants. A representative of the group called ShinyHunters told 404 Media the the data included FBI agents' name, home address, phone numbers, and information on their spouse.\" The data breach could be massively significant and may have all sorts of national security and counterintelligence and Whoa, whoa, whoa, what happened here? Criminals from the same ecosystem as Shiny Hunters have previously used hacked data like phone records to track, intimidate, and harass the FBI agents investigating them. The highly sensitive data could also be a boon to foreign intelligence agencies who want to better"
+ ],
+ [
+  366,
+  "understand how one of the most important law enforcement and intelligence agency in the US operates. And if the data fell into the hands of more criminals, FBI agents and their spouses could face serious threats to their safety. They said, \"We hacked the FBI. We hold the data on all FBI employees and applicants.\" The representative of the group told 404 Media. So, 404 Media, these guys actually interviewed the hackers. Like, badasses, dude. And this is why I don't ever say I'm a journalist cuz I'm not. I'm not doing this I probably could, but like these people, they do it. And they have the integrity. And then we can trust that what they're saying is"
+ ],
+ [
+  411,
+  "the truth. The representative provided 404 Media with a sample appearing to contain the personal data of 5,000 FBI employees. The data included an alleged address, phone number, date of birth, and in some cases details on the spouse. 404 Media put some of the sample phone numbers into open-source intelligence tool OSINT Industries and found they did correspond to people with the same name as listed in the sample file. 404 Media also researched or searched some of the records through compromised data tool Dark Side made by cybersecurity company District Four. That revealed some of the phone numbers are associated with US Department of Justice personnel. They're doing the work. They're They're"
+ ],
+ [
+  457,
+  "verifying. Shiny Hunters also defaced the FBI jobs website on Tuesday. That defacement says, \"This site has been seized by Shiny Hunters.\" Which is an obvious nod to the seizure notices the FBI and other law enforcement agencies often put on sites after taking them down. The representative said Shiny Hunters carried out the hack on Monday night. At the time of writing, the FBI jobs website says, \"Apply .fbijobs.gov and the special agent applicant portal are currently unavailable.\" And then later, later they they they said they were doing routine maintenance. Anyway, back to the story. The announcement ended with another obvious jibe at the administration. This time mocking President Trump's Truth"
+ ],
+ [
+  502,
+  "Social post style. \"Thank you for your attention to this matter.\" After publication of the article, an FBI spokesperson told 404 Media in an email, \"The FBI is aware of claims regarding unauthorized activity affecting fbijobs.gov and is currently investigating.\" The representative said Shiny Hunters said the group used a zero-day exploit in an Oracle product called PeopleSoft. From there, the group managed to access AWS GovCloud servers and downloaded data. The representative said the exfiltrated data totaled between 2 and 3 terabytes. That's quite a bit of data. 3 terabytes is a fair bit of data, okay?"
+ ],
+ [
+  548,
+  "And how did they do it? They did a zero-day exploit on an Oracle product, that's Larry Ellison, and then accessed through Amazon Web Services GovCloud server servers. So, uh if you don't know, Amazon Web Services is actually the real business that Amazon is in, and Amazon provides uh cloud services and uh and and other services like like um like server type stuff. Um I'm not super technical like that. There are people out there that can totally explain it better than me. But essentially, something like 80% of the internet runs through Amazon Web Services. That's the real business that"
+ ],
+ [
+  593,
+  "Amazon's in. Not getting you your toothpaste or whatever. That's what what really keeps the lights on for them. So typically, Shiny Hunter uh hacks targets and then attempts to extort them. The group threatens to publicly release more compromised data if the victim organization or company doesn't pay a hefty fee. Obviously, it is unlikely that the FBI would ever pay a ransom like this. When asked if Shiny Hunters was going to attempt to extort the FBI, the representative said, \"What we plan to do is not something I'd call extortion, maybe coercion.\" \"This is not financially motivated,\" they added. In a post on its leak website, Shiny Hunters says"
+ ],
+ [
+  638,
+  "the FBI made false allegations in a previously published report. Previously, the FBI said that Shiny Hunters exaggerates its claims of access to sensitive data to elicit payment, that the group sends threatening text messages and phone calls to victims and their families, and sometimes perfo performs swatting. In the post, Shiny Hunters says it's allowing you, the FBI, a time of 1 week to correct or remove the report. Interesting. It seems like they're just going after the FBI because of something that the FBI said about them and they want it to be removed. It's mad funny. It's mad funny. To me, that's hilarious. Shout out 404 Media. Uh shout out the inept FBI"
+ ],
+ [
+  685,
+  "led by the most under-qualified person I've ever seen. Cash, I'll see you in Valhalla. We got him in 33 hours, Patel. It's really crazy, guys."
+ ]
+]

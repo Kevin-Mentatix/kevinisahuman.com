@@ -1,0 +1,41 @@
+{
+ "metaDescription": "Kevin marks the Patriot Act's 25th anniversary, tracing how the 2001 law, Ashcroft's draft, Palantir and In-Q-Tel fed today's surveillance state.",
+ "summary": "This video is Kevin's commentary on the 25th anniversary of the USA Patriot Act, which he argues laid the groundwork for today's surveillance state. After playing a explainer clip on the law's surveillance provisions, criticism of Section 215 and Section 505, and ACLU challenges, Kevin says Attorney General Ashcroft delivered a draft eight days after 9/11 containing provisions Congress had rejected earlier. He claims the final bill moved through the House with little review during the anthrax attacks. Kevin connects the law to Total Information Awareness, Palantir, and CIA-backed In-Q-Tel, and argues that the surveillance state traces back to this event.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Patriot Act Turns 25"
+  },
+  {
+   "t": 90,
+   "label": "Explainer: What the Patriot Act Did"
+  },
+  {
+   "t": 273,
+   "label": "Section 215, Section 505, And ACLU Challenges"
+  },
+  {
+   "t": 365,
+   "label": "Ashcroft's Draft Rushed Through Congress"
+  },
+  {
+   "t": 456,
+   "label": "Total Information Awareness, Palantir, And In-Q-Tel"
+  },
+  {
+   "t": 547,
+   "label": "Surveillance State And Manufactured Consent"
+  }
+ ],
+ "entities": [
+  "USA Patriot Act",
+  "George W. Bush",
+  "John Ashcroft",
+  "ACLU",
+  "Total Information Awareness",
+  "Palantir",
+  "In-Q-Tel",
+  "Flock Safety",
+  "Fourth Amendment"
+ ]
+}

@@ -1,0 +1,78 @@
+name: Sync YouTube & deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 * * * *'   # hourly: pick up new uploads
+  workflow_dispatch:
+  repository_dispatch:
+    types: [youtube-upload]   # fired by worker/ when YouTube pings a new upload
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync catalog from YouTube API
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/sync.mjs
+
+      - name: Renew YouTube push subscription
+        if: vars.WEBSUB_CALLBACK != ''
+        env:
+          HUB_SECRET: ${{ secrets.HUB_SECRET }}
+        run: |
+          curl -fsS -X POST https://pubsubhubbub.appspot.com/subscribe \
+            -d hub.mode=subscribe -d hub.verify=async \
+            -d "hub.topic=https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCW0thOneTVu_df6DBdfRD6w" \
+            -d "hub.callback=${{ vars.WEBSUB_CALLBACK }}" -d "hub.secret=$HUB_SECRET" || true
+
+      - name: Fetch missing transcripts (best effort)
+        run: |
+          pip install --quiet yt-dlp || true
+          node scripts/transcripts.mjs || true
+
+      - name: Commit data changes
+        run: |
+          git config user.name "kiah-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/videos.json data/transcripts
+          git diff --cached --quiet || git commit -m "sync: update video catalog [skip ci]"
+          git push || true
+
+      - name: Build site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          BASE_PATH: ${{ vars.BASE_PATH }}
+          NOINDEX: ${{ vars.NOINDEX }}
+          CNAME: ${{ vars.CNAME }}
+        run: node scripts/build.mjs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

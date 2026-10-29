@@ -1,0 +1,37 @@
+{
+  "metaDescription": "Kevin reacts to Fads' video on Palantir's UK contracts, including the 330 million pound NHS data platform, and ties it to Palantir in the US.",
+  "summary": "Kevin reacts to a Fads video about Palantir's growing role in the UK, and adds his own commentary. The video says Palantir won a 330 million pound NHS data platform contract in 2023, that a Health Foundation analysis found no noticeable improvement in discharge performance, and that costs may reach a billion pounds. It also describes a 240 million pound Ministry of Defence deal and at least 32 officials hired by Palantir. Kevin says the same pattern is playing out in the United States. Kevin also adds that Palantir descended from Total Information Awareness and was initially funded by In-Q-Tel.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Palantir's 330 Million Pound NHS Contract"
+    },
+    {
+      "t": 137,
+      "label": "Palantir's Origins: Gotham And Foundry"
+    },
+    {
+      "t": 319,
+      "label": "From One Pound Contract To Billions"
+    },
+    {
+      "t": 411,
+      "label": "Revolving Door Hiring In UK Government"
+    },
+    {
+      "t": 594,
+      "label": "No-Bid Contracts And Data Lock-In"
+    }
+  ],
+  "entities": [
+    "Palantir",
+    "NHS",
+    "Fads",
+    "Health Foundation",
+    "In-Q-Tel",
+    "Total Information Awareness",
+    "GCHQ",
+    "Peter Thiel",
+    "UK Ministry of Defence"
+  ]
+}

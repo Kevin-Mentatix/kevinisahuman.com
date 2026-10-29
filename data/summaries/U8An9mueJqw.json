@@ -1,0 +1,40 @@
+{
+  "metaDescription": "Kevin reacts to reports that Anthropic president Daniela Amodei uses stuffed animals to work through management decisions, citing Inc. and The Atlantic.",
+  "summary": "This video is Kevin's reaction to reports that Anthropic president Daniela Amodei uses a council of stuffed animals to reason through management decisions. Kevin reads from an Inc. article citing The Atlantic, which describes characters such as a perfectionist pink bear, a lackadaisical cat, and an empathetic panda. He notes her husband Holden Karnofsky's ties to effective altruism and the panda nickname at OpenAI. Kevin criticizes the practice as a poor way to understand people, mocks effective altruism, and argues the stakes are high given the technology Anthropic builds.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Stuffed Animals Advising An AI Company"
+    },
+    {
+      "t": 92,
+      "label": "Daniela Amodei's Background And Role"
+    },
+    {
+      "t": 184,
+      "label": "The Atlantic's Account Of The Council"
+    },
+    {
+      "t": 276,
+      "label": "Rubber Duck Debugging Comparison"
+    },
+    {
+      "t": 369,
+      "label": "Pandas, Holden Karnofsky, And The Proposal"
+    },
+    {
+      "t": 459,
+      "label": "Effective Altruism And Kevin's Verdict"
+    }
+  ],
+  "entities": [
+    "Anthropic",
+    "Daniela Amodei",
+    "Dario Amodei",
+    "Holden Karnofsky",
+    "Effective Altruism",
+    "The Atlantic",
+    "Inc.",
+    "Sam Bankman-Fried"
+  ]
+}

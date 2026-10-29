@@ -1,0 +1,40 @@
+{
+  "metaDescription": "Kevin covers reports that Meta's Muse AI agent builds dossiers on users and non-users, and links Meta and Palantir to Total Information Awareness.",
+  "summary": "Kevin discusses Meta's Muse, an AI agent for Instagram and Facebook that reportedly has 4 million users. He cites a report that Muse updates hourly dossiers on users and the people they mention, which can map people who never opted in. Kevin also describes a Marketplace launch problem where agents allegedly made unapproved sales. He argues Meta and Palantir descend from DARPA's Total Information Awareness, says AI can now process decades of collected data, and criticizes the companies, not AI itself. Kevin says he likes AI but objects to the companies and people controlling it, and suggests data poisoning as a response.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Meta's Muse Agent And Non-Users"
+    },
+    {
+      "t": 46,
+      "label": "Muse Marketplace Launch Problems"
+    },
+    {
+      "t": 93,
+      "label": "Dossiers On Users And Contacts"
+    },
+    {
+      "t": 320,
+      "label": "Profiling Without Opting In"
+    },
+    {
+      "t": 367,
+      "label": "Pre-Crime And Total Information Awareness"
+    },
+    {
+      "t": 553,
+      "label": "Meta Encryption And Problem With Companies"
+    }
+  ],
+  "entities": [
+    "Meta",
+    "Muse",
+    "Facebook Marketplace",
+    "Palantir",
+    "Total Information Awareness",
+    "DARPA",
+    "Anthropic",
+    "Flock Safety"
+  ]
+}

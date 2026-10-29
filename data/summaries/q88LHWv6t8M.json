@@ -1,0 +1,37 @@
+{
+ "metaDescription": "Kevin traces Bitcoin's roots to the Extropians, covering Hal Finney, Alcor, Max More, and theories about who Satoshi Nakamoto might be.",
+ "summary": "Kevin explains the Extropian roots of Bitcoin, drawing on a 2021 article. He notes that Bitcoin pioneer Hal Finney was cryonically preserved by Alcor and took part in the Extropians mailing list, where cryptography, cryonics, and mind uploading were discussed. Kevin contrasts the early libertarian Principles of Extropy by Max More with what he sees as the coercive approach of today's AI movement. He reviews rumors naming Finney, Nick Szabo, and Wei Dai as Satoshi Nakamoto, says he suspects Satoshi is a CIA construct, and defends smart contracts. He says the group was fringe then and is not now.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Hal Finney, Alcor, And Extropy Chat"
+  },
+  {
+   "t": 138,
+   "label": "Principles Of Extropy And Libertarianism"
+  },
+  {
+   "t": 184,
+   "label": "Extropians Versus Today's AI Cult"
+  },
+  {
+   "t": 412,
+   "label": "Who Is Satoshi Nakamoto?"
+  },
+  {
+   "t": 503,
+   "label": "Smart Contracts, NFTs, And Bored Apes"
+  }
+ ],
+ "entities": [
+  "Extropians",
+  "Bitcoin",
+  "Hal Finney",
+  "Alcor",
+  "Max More",
+  "Satoshi Nakamoto",
+  "Nick Szabo",
+  "Wei Dai",
+  "Smart contracts"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+  "metaDescription": "Kevin examines Toka, an Israeli cyber intelligence firm backed by Andreessen Horowitz, and reported tools that can hijack cameras and alter footage.",
+  "summary": "This video is Kevin's look at Toka, an Israeli cyber intelligence company that sells only to governments, and what he says its leaked documents reveal. Kevin reports that Toka's technology can reportedly locate and access internet-connected cameras, watch feeds, and alter live or recorded footage while hiding the intrusion. He notes founders including former Israeli prime minister Ehud Barak and backing from Andreessen Horowitz, which also invested in Flock Safety and Axon. Kevin describes layers of surveillance collectors and aggregators such as Palantir and Oracle, questions courtroom use of video evidence, and argues for political pressure grounded in the Fourth Amendment.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Cameras Become Intelligence Sensors"
+    },
+    {
+      "t": 48,
+      "label": "What Toka Is And Who Backs It"
+    },
+    {
+      "t": 367,
+      "label": "Leaked Documents On Camera Hijacking"
+    },
+    {
+      "t": 505,
+      "label": "Footage Manipulation And Evidence Concerns"
+    },
+    {
+      "t": 782,
+      "label": "Andreessen Horowitz And Las Vegas Police"
+    },
+    {
+      "t": 876,
+      "label": "Toka's US Expansion In 2026"
+    },
+    {
+      "t": 1013,
+      "label": "Collectors, Aggregators, And The Surveillance Stack"
+    },
+    {
+      "t": 1288,
+      "label": "Data Centers And Political Solutions"
+    }
+  ],
+  "entities": [
+    "Toka",
+    "Andreessen Horowitz",
+    "Flock Safety",
+    "Ehud Barak",
+    "Axon",
+    "Palantir",
+    "Oracle",
+    "Internet of Things",
+    "Fourth Amendment"
+  ]
+}

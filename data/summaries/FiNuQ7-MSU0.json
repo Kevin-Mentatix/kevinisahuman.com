@@ -1,0 +1,44 @@
+{
+  "metaDescription": "Kevin discusses a report that Anthropic is building threat monitoring of AI activists, and what it means for Claude, open source, and Pentagon contracts.",
+  "summary": "This video is Kevin's reaction to a report that Anthropic, maker of Claude, is building a monitoring system to track activists who oppose rapid AI development. Kevin cites job postings and interviews described in the article, including a pre-crime approach that could involve reporting suspects to police. He argues frontier AI labs are pushing regulation to block competitors and restrict open-source models, and ties this to Nick Bostrom's vulnerable world hypothesis. Kevin also recalls Anthropic's dispute with the Department of War over domestic surveillance and says the company now seems to be reversing course.",
+  "keyMoments": [
+    {
+      "t": 0,
+      "label": "Anthropic Reportedly Monitoring AI Activists"
+    },
+    {
+      "t": 51,
+      "label": "Open Source, Compute, And Control"
+    },
+    {
+      "t": 188,
+      "label": "Bostrom's Vulnerable World Hypothesis"
+    },
+    {
+      "t": 330,
+      "label": "The Synchronized AI Outage Timeline"
+    },
+    {
+      "t": 424,
+      "label": "Pre-Crime Approach And Police Reporting"
+    },
+    {
+      "t": 472,
+      "label": "Anthropic's Dispute With The Pentagon"
+    },
+    {
+      "t": 564,
+      "label": "Walking Back Its Surveillance Stance"
+    }
+  ],
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Nick Bostrom",
+    "Department of War",
+    "Pete Hegseth",
+    "OpenAI",
+    "Amazon Web Services",
+    "Effective Altruism"
+  ]
+}

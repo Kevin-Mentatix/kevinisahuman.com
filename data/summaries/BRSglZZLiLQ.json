@@ -1,0 +1,27 @@
+{
+ "metaDescription": "Kevin examines Flock Safety's 100,000-plus ALPR cameras and a Texas case where 83,345 cameras were searched to find a woman after an abortion.",
+ "summary": "Kevin argues Flock Safety's network of 100,000-plus roadside cameras, which he says capture about 20 billion plate scans monthly, is open to misuse. Citing a 404 Media report and an EFF investigation, he describes a May 2025 search by a Johnson County, Texas deputy that swept 83,345 cameras nationwide for a woman tied to a self-managed abortion. Sheriff Adam King and Flock called it a welfare check; Kevin says an affidavit described a death investigation, the fetus was later found to be a blood clot, and no charges were filed.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Flock's Camera Network And Misuse"
+  },
+  {
+   "t": 90,
+   "label": "Texas Abortion Search Across 83,000 Cameras"
+  },
+  {
+   "t": 233,
+   "label": "EFF Affidavit And Blood Clot Finding"
+  }
+ ],
+ "entities": [
+  "Flock Safety",
+  "ALPR",
+  "404 Media",
+  "Electronic Frontier Foundation",
+  "Johnson County Sheriff's Office",
+  "Sheriff Adam King",
+  "Abortion"
+ ]
+}
