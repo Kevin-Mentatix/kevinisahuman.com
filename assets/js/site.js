@@ -12,6 +12,15 @@
     $('#nav').classList.toggle('open', open);
   });
 
+  // Analytics: outbound clicks to Discord / YouTube / Kick / Twitch / projects
+  const dest = (h) => /discord\.gg/.test(h) ? 'discord' : /sub_confirmation/.test(h) ? 'youtube-subscribe' : /youtube\.com/.test(h) ? 'youtube' : /kick\.com/.test(h) ? 'kick' : /twitch\.tv/.test(h) ? 'twitch' : /^https?:/.test(h) && !h.includes(location.host) ? 'outbound' : null;
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href]'); const d = a && dest(a.href);
+    if (!d || !window.umami) return;
+    const where = a.closest('.site-head') ? 'header' : a.closest('.hero') ? 'hero' : a.closest('.cta-discord') ? 'discord-band' : a.closest('.cta-sub') ? 'subscribe-block' : a.closest('.watch-actions') ? 'watch' : a.closest('.site-foot') ? 'footer' : 'page';
+    umami.track(d, { where, url: a.href, page: location.pathname });
+  });
+
   // Hero VCR timecode
   const tc = $('#tc');
   if (tc) {

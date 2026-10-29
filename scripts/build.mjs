@@ -163,7 +163,7 @@ function layout({ title, description, path: p, image, schema = [], body, ogType 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=VT323&display=swap">
 <link rel="stylesheet" href="${url('/assets/css/site.css')}?v=${BUILT.slice(0, 16).replace(/\D/g, '')}">
 ${ld({ '@context': 'https://schema.org', '@graph': [websiteLD, personLD, ...schema] })}
-</head>
+${site.umami ? `<script defer src="https://cloud.umami.is/script.js" data-website-id="${site.umami}" data-domains="kevinisahuman.com"></script>\n` : ''}</head>
 <body class="${bodyClass}">
 <a class="skip" href="#main">Skip to content</a>
 <div class="live-bar" id="live-bar" hidden><a href="${url('/live/')}"><span class="rec">● LIVE</span> Kevin is streaming now <span id="live-where"></span> — watch here ${icon.arrow}</a></div>

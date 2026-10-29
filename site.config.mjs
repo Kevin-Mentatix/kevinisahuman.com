@@ -13,6 +13,7 @@ export const site = {
   locale: 'en_US',
   channelId: 'UCW0thOneTVu_df6DBdfRD6w',
   uploadsPlaylist: 'UUW0thOneTVu_df6DBdfRD6w',
+  umami: '', // Umami Cloud website ID; empty = no analytics
 };
 
 export const person = {
