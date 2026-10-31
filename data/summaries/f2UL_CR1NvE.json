@@ -1,0 +1,46 @@
+{
+ "metaDescription": "Kevin reacts to Leah Remini's Shawn Ryan interview, covering Flock audit logs, Shawn Ryan's Anduril investment, and Peter Thiel's surveillance-tech ties.",
+ "summary": "This video is Kevin's commentary on a Shawn Ryan interview with a guest he names as Leah, focusing on surveillance and on investors behind surveillance companies. Kevin plays her remarks on Flock Safety audit logs and the Have I Been Flocked site, which he says show most license plate searches were not for crime. He reports that she was not allowed to discuss Andreessen Horowitz, Founders Fund, and Peter Thiel, and notes that Ryan invested in Anduril after hosting Palmer Luckey. Kevin uses his Panopticon Index site to outline Anduril's towers, drones, and Lattice AI platform, then plays a Luckey clip on autonomous weapons and criticizes it.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Why AI Matters To Surveillance"
+  },
+  {
+   "t": 46,
+   "label": "Flock Audit Logs And Have I Been Flocked"
+  },
+  {
+   "t": 280,
+   "label": "Guest Barred From Discussing Investors"
+  },
+  {
+   "t": 376,
+   "label": "Shawn Ryan's Anduril Investment"
+  },
+  {
+   "t": 517,
+   "label": "Panopticon Index Anduril Dossier"
+  },
+  {
+   "t": 658,
+   "label": "Founders Fund And Andreessen Horowitz Backing"
+  },
+  {
+   "t": 794,
+   "label": "Palmer Luckey Clip On Autonomous Weapons"
+  }
+ ],
+ "entities": [
+  "Shawn Ryan",
+  "Peter Thiel",
+  "Anduril",
+  "Palmer Luckey",
+  "Flock Safety",
+  "Have I Been Flocked",
+  "Founders Fund",
+  "Andreessen Horowitz",
+  "Lattice",
+  "Panopticon Index"
+ ]
+}
