@@ -37,6 +37,7 @@ export const links = {
   x: 'https://x.com/Kevin_is_human',
   instagram: 'https://www.instagram.com/kevin_is_a_human/',
   discord: 'https://discord.gg/FjpnvxXKtA',
+  discordServerId: '1562124024044199988',
 };
 
 export const live = { twitch: 'kevin_is_a_human', kick: 'kevin-is-a-human' };

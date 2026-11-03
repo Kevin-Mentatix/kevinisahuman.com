@@ -224,10 +224,11 @@ const projectCta = (pr, context) => pr ? `<aside class="cta-project">
   <div><p class="hud">Go deeper ${context ? '· ' + esc(context) : ''}</p><h2>${esc(pr.name)}</h2><p>${esc(pr.blurb)}</p>
   <a class="btn" href="${pr.url}" rel="noopener" target="_blank">Open ${esc(pr.name)} ${icon.arrow}</a></div>
 </aside>` : '';
-const discordCta = () => `<section class="cta-discord">
+const discordCta = ({ widget = false } = {}) => `<section class="cta-discord${widget ? ' has-widget' : ''}">
   <div class="cta-discord-icon">${icon.discord}</div>
-  <div><p class="hud">Community · Free to join</p><h2>Join the Kevin Is A Human Discord.</h2><p>Talk through the investigations with people who are paying attention, share what you're finding, and get every new upload in #youtube-uploads.</p></div>
-  <a class="btn btn-discord btn-lg" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a>
+  <div class="cta-discord-copy"><p class="hud">Community · Free to join</p><h2>Join the Kevin Is A Human Discord.</h2><p>Talk through the investigations with people who are paying attention, share what you're finding, and get every new upload in #youtube-uploads.</p>
+  <a class="btn btn-discord btn-lg" href="${links.discord}" rel="noopener" target="_blank">${icon.discord} Join the Discord</a></div>
+  ${widget ? `<iframe class="discord-widget" src="https://discord.com/widget?id=${links.discordServerId}&theme=dark" title="Kevin Is A Human Discord server" width="350" height="500" loading="lazy" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>` : ''}
 </section>`;
 const subscribeCta = () => `<section class="cta-sub">
   <div><p class="hud">New video almost every day</p><h2>Don't miss the next one.</h2><p>Subscribe on YouTube, join the community on Discord, or catch the investigations live on Kick and Twitch.</p></div>
@@ -280,7 +281,7 @@ function home() {
   </div>
 </section>
 
-<div class="wrap">${discordCta()}</div>
+<div class="wrap">${discordCta({ widget: true })}</div>
 
 <section class="wrap section">
   <header class="sec-head">${hud('Change the channel')}<h2>What Kevin investigates</h2></header>

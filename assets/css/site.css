@@ -215,6 +215,9 @@ button { font: inherit; color: inherit; }
 .cta-discord-icon svg { width: 36px; height: 36px; }
 .cta-discord h2 { margin-bottom: .25em; }
 .cta-discord p:not(.hud) { color: var(--ink-2); margin: 0; max-width: 60ch; }
+.cta-discord-copy .btn { margin-top: 20px; }
+.discord-widget { display: block; width: 100%; max-width: 350px; height: 500px; border: 0; border-radius: 10px; justify-self: center; }
+@media (min-width: 900px) { .cta-discord.has-widget { grid-template-columns: auto 1fr 350px; align-items: start; } }
 
 /* About */
 .about-strip, .about { display: grid; gap: 28px; align-items: center; }
