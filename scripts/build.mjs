@@ -42,6 +42,8 @@ const linkify = (s) => esc(s)
 // ---------- data ----------
 // Shorts stay in data/videos.json but are not published on the site.
 const videos = readJSON(VIDEOS_JSON, []).filter((v) => v.type !== 'short');
+const assigned = readJSON(path.join(DATA, 'topics.json'), {});
+const validTopic = new Set(topics.map((t) => t.slug));
 for (const v of videos) {
   v.t = displayTitle(v.title);
   v.desc = cleanDescription(v.description);
@@ -51,7 +53,8 @@ for (const v of videos) {
   v.meta = v.sum?.metaDescription
     || truncate(v.desc || (v.paras.length ? v.paras.slice(0, 2).map((p) => p[1]).join(' ') : `${v.t} — a ${typeLabel[v.type].toLowerCase()} from Kevin Is A Human.`), 155);
 
-  // topic scoring
+  // topics: classified (data/topics.json) when available, keyword fallback until then
+  if (assigned[v.id]) { v.topics = assigned[v.id].filter((t) => validTopic.has(t)); continue; }
   const score = {};
   const fields = [[v.title, 3], [(v.tags || []).join(' | '), 2], [v.desc, 1], [v.sum ? v.sum.summary + ' ' + (v.sum.entities || []).join(' | ') : '', 1]];
   for (const tp of topics) {

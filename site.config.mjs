@@ -73,53 +73,62 @@ export const projects = [
 ];
 
 // Topic hubs, styled as TV channels (matches the stream intro).
-// keywords are regex fragments (case-insensitive, implicit leading \b) scored against
-// title (x3), tags (x2), and summary/entities (x1). A video joins a topic at score >= 2.
+// Topic membership lives in data/topics.json ({ videoId: [slug, ...] }, primary first), written by
+// scripts/classify.mjs from each topic's `scope` and hand-editable. `keywords` are only a fallback
+// for new videos that have not been classified yet (regex fragments, implicit leading \b).
 export const topics = [
   {
     slug: 'surveillance-state', ch: '17', name: 'Surveillance State', project: 'panopticon',
+    scope: 'Videos mainly about tracking and monitoring people: Flock and license-plate readers, Palantir, Toka, Axon, spyware, biometric ID, data dossiers, mass-surveillance laws like the Patriot Act, and companies or AI systems that profile people.',
     keywords: ['flock', 'surveillance', 'palantir', 'biometric', 'alpr', 'toka', 'cameras?\\b', 'axon\\b', 'profiling', 'pre-? ?crime', 'tracking', 'call the cops', 'stalk', 'facial recognition'],
     intro:
       'Flock license-plate cameras, Palantir, biometric ID, and the private companies quietly building a nationwide tracking grid. Kevin follows who builds it, who funds it, and who it gets used against.',
   },
   {
     slug: 'transhumanism', ch: '33', name: 'Transhumanism', project: 'aicults',
+    scope: 'Videos mainly about merging humans with machines or escaping death: cyborgs, brain-computer interfaces, mind uploading, cryonics (Alcor), longevity and life extension, and the people pushing a post-human future.',
     keywords: ['transhuman', 'cyborg', 'immortal', 'alcor', 'cryogenic', 'cryonic', 'frozen', 'extropian', 'brain chip', 'neuralink', 'longevity', 'life extension'],
     intro:
       'The movement to merge people with machines: cyborg companies, cryonics, life extension, and the billionaires funding a "post-human" future. Kevin argues against it and digs into who is pushing it.',
   },
   {
     slug: 'ai-cults-tescreal', ch: '39', name: 'AI Cults & TESCREAL', project: 'aicults',
+    scope: 'Videos mainly about the ideologies and belief systems around AI: TESCREAL, Extropians, effective altruism, rationalism, longtermism, singularitarianism, AI-as-god or AI religion, and how labs use quasi-religious narratives.',
     keywords: ['tescreal', 'cults?\\b', 'extropian', 'altruis', 'ai god', 'religion', 'occult', 'pope\\b', 'vatican', 'theaicults', 'kill us all', 'will all die', 'rationalis', 'longtermis', 'singularit', 'replace you'],
     intro:
       'TESCREAL stands for transhumanism, extropianism, singularitarianism, cosmism, rationalism, effective altruism, and longtermism. Together they form the belief system behind the AI race. Kevin covers the ideas, the people, and the money.',
   },
   {
     slug: 'artificial-intelligence', ch: '07', name: 'Artificial Intelligence', project: 'aicults',
+    scope: 'Videos mainly about the AI industry and AI technology itself: OpenAI, Anthropic, xAI, Google, Meta AI, AI products and agents, the AI bubble and bailouts, government AI systems, and AI-generated media.',
     keywords: ['ai\\b', 'artificial intelligence', 'openai', 'open ai\\b', 'anthropic', 'claude\\b', 'chatgpt', 'altman', 'america\\.gov'],
     intro:
       'Critical coverage of OpenAI, Anthropic, Big Tech, and government AI: who controls it, what they say in public versus what they build, and what it means for ordinary people.',
   },
   {
     slug: 'tech-billionaires', ch: '13', name: 'Tech Billionaires', project: 'panopticon',
+    scope: 'Videos mainly about specific tech billionaires and their personal networks and money: Peter Thiel, Sam Altman, Elon Musk, Marc Andreessen, Palmer Luckey, their funds, holding companies, and investments.',
     keywords: ['thiel', 'theil', 'altman', 'musk\\b', 'zuckerberg', 'meta\\b', 'palantir', 'anduril', 'puppet master', 'billionaire'],
     intro:
       'Peter Thiel, Sam Altman, and the rest of the small group of tech billionaires shaping surveillance, AI, and politics. Kevin looks at their companies, interviews, and connections.',
   },
   {
     slug: 'government-corruption', ch: '23', name: 'Government Corruption', project: null,
+    scope: 'Videos mainly about abuses of power or failures by governments and officials: conflicts of interest, revolving-door contracts, laws rushed through or sovereignty given away, illegal deals, and officials profiting or overreaching.',
     keywords: ['trump', 'pentagon', 'hegseth', 'execution', 'bondi\\b', 'epstein', 'eppy\\b', 'sovereignty', 'section 219', 'too big to fail', 'nationaliz', 'fbi\\b', 'hacked', 'scam', 'corrupt', 'congress', 'dark brandon', 'biden'],
     intro:
       'Abuses of power in Washington and beyond: sovereignty, Epstein, government AI deals, and the officials and insiders who profit from them.',
   },
   {
     slug: 'dead-scientists', ch: '51', name: 'Dead Scientists', project: 'scientists',
+    scope: 'Videos mainly about the cluster of U.S. scientists tied to defense, aerospace, nuclear, or UAP work who died or went missing since 2022, and the WhoKilledTheScientists investigation.',
     keywords: ['scientists?\\b', 'plutonium', 'whokilledthescientists'],
     intro:
       'Since 2022, more than 21 scientists tied to classified U.S. defense, aerospace, and nuclear programs have died or disappeared. Kevin investigates the cases and how they connect.',
   },
   {
     slug: 'conspiracy-theories', ch: '27', name: 'Conspiracy Theories', project: 'scientists',
+    scope: 'Videos mainly about unresolved stories and speculation Kevin frames as theories: anti-gravity programs, cover-ups, manufactured events, footage tampering, and claims the official story does not settle.',
     keywords: ['conspirac', 'antigravity', 'cybertruck', 'noticing', 'probably nothing', 'epstein frozen', 'shady', 'warn us', 'cover-? ?up', 'ufo', 'uap'],
     intro:
       'The stories official explanations do not settle: antigravity programs, strange coincidences, and things worth noticing. Kevin investigates them and says plainly what holds up and what does not.',

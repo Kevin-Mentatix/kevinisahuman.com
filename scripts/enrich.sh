@@ -9,7 +9,8 @@ echo "=== $(date) ==="
 git pull --rebase --quiet || { echo "git pull failed"; exit 1; }
 node scripts/transcripts.mjs
 node scripts/summarize.mjs
-git add data/videos.json data/transcripts data/summaries
+node scripts/classify.mjs
+git add data/videos.json data/transcripts data/summaries data/topics.json
 if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-git commit --quiet -m "enrich: transcripts and summaries for new videos"
+git commit --quiet -m "enrich: transcripts, summaries and topics for new videos"
 git push --quiet && echo "pushed"
