@@ -5,7 +5,11 @@ import { VIDEOS_JSON, readJSON, writeJSON, assignSlugs, parseIsoDuration, isShor
 import { site } from '../site.config.mjs';
 
 const KEY = process.env.YOUTUBE_API_KEY;
-if (!KEY) { console.error('YOUTUBE_API_KEY not set; skipping sync.'); process.exit(0); }
+if (!KEY) {
+  console.error('YOUTUBE_API_KEY not set; skipping sync.');
+  if (process.env.GITHUB_ACTIONS) console.log('::warning title=YouTube sync skipped::YOUTUBE_API_KEY secret is not set, so new uploads are not being picked up.');
+  process.exit(0);
+}
 
 const api = async (endpoint, params) => {
   const u = new URL(`https://www.googleapis.com/youtube/v3/${endpoint}`);
