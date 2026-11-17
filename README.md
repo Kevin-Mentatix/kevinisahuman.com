@@ -9,7 +9,7 @@ Static personal-brand site for Kevin Is A Human. YouTube catalog auto-syncs hour
 - `scripts/build.mjs`: generates `dist/` (pages, sitemap with video extension, robots, llms.txt, llms-full.txt, RSS)
 - `.github/workflows/deploy.yml`: sync → build → GitHub Pages, on a schedule and instantly when YouTube pings the Worker
 - `worker/`: Cloudflare Worker receiving YouTube WebSub pings → `repository_dispatch` (secrets: `HUB_SECRET`, `GITHUB_TOKEN`)
-- `scripts/enrich.sh` + `scripts/com.kevinisahuman.enrich.plist`: local launchd job (3x daily) for transcripts + summaries via `claude -p`
+- `scripts/enrich.sh` + `scripts/com.kevinisahuman.enrich.plist`: local launchd job (daily at 2pm) for transcripts + summaries via `claude -p`
 
 Config lives in `site.config.mjs` (links, projects, topic channels and their keywords).
 
