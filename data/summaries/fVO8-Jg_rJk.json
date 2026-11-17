@@ -1,0 +1,50 @@
+{
+ "metaDescription": "Kevin reacts to James Lee's video on Jensen Huang's Nvidia resignation, covering the affair claims, Israeli successors and open-source AI.",
+ "summary": "This video is Kevin's reaction to James Lee's report on why Nvidia CEO Jensen Huang resigned after reported affairs, including one with an alleged Chinese spy. Kevin argues the resignation looks like an outside coup, citing a reported internal survey in which 88% of employees supported Huang, and he compares Huang's fall to powerful figures who survived scandals. The clips Kevin plays say interim CEO Colette Kress and possible successors such as Michael Kagan have Israeli ties. They point to Nvidia's 2019 Mellanox acquisition and Netanyahu's national AI program. Kevin and the report suggest Huang's open-source model advocacy made him a target and that he could become an activist shareholder. These are the speakers' opinions and allegations. Kevin says he is not defending Huang.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Why Was Jensen Huang Forced Out"
+  },
+  {
+   "t": 187,
+   "label": "Resignation News And Interim CEO"
+  },
+  {
+   "t": 278,
+   "label": "Israeli Executives Named As Successors"
+  },
+  {
+   "t": 324,
+   "label": "Greenwald And The Scandal Double Standard"
+  },
+  {
+   "t": 462,
+   "label": "Employee Survey Shows Support For Huang"
+  },
+  {
+   "t": 552,
+   "label": "Israel's National AI Program Launch"
+  },
+  {
+   "t": 828,
+   "label": "Nvidia's Mellanox Acquisition And Israel R&D"
+  },
+  {
+   "t": 921,
+   "label": "Open-Source Models And Dark Jensen"
+  }
+ ],
+ "entities": [
+  "Jensen Huang",
+  "Nvidia",
+  "James Lee",
+  "Colette Kress",
+  "Glenn Greenwald",
+  "Mellanox",
+  "Benjamin Netanyahu",
+  "Michael Kagan",
+  "Open-weight AI models",
+  "Compute sovereignty"
+ ]
+}

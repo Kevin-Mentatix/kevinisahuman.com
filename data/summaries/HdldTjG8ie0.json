@@ -1,0 +1,52 @@
+{
+ "metaDescription": "Kevin returns from illness to cover the nationwide FAA ground stop, the FAA's new SMART AI tool, Jensen Huang's Nvidia resignation, and AI compute control.",
+ "summary": "This stream covers Kevin's return after two weeks off sick and his commentary on the nationwide US flight grounding. Kevin questions whether the FAA's new SMART AI traffic tool, rolled out to all 22 control centers days earlier, played a role, while noting the FAA says it does not touch radios or radar. He also debunks the 'doomsday' paper claim, discusses circular AI financing, and reports on Jensen Huang's resignation from Nvidia. Kevin argues, citing James Lee, that Israeli interests may be positioning to take over Nvidia, and says AI companies are pushing against open-weight models.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Kevin Returns After Two Weeks Sick"
+  },
+  {
+   "t": 567,
+   "label": "Every US Flight Grounded By FAA"
+  },
+  {
+   "t": 890,
+   "label": "FAA SMART AI Tool Questions"
+  },
+  {
+   "t": 2039,
+   "label": "Debunking The Doomsday Paper Claim"
+  },
+  {
+   "t": 2965,
+   "label": "Circular AI Financing And Double Counting"
+  },
+  {
+   "t": 4309,
+   "label": "Jensen Huang Resigns From Nvidia"
+  },
+  {
+   "t": 5006,
+   "label": "War For Compute And Open Weights"
+  },
+  {
+   "t": 5791,
+   "label": "Discord, Website, And Channel Support"
+  }
+ ],
+ "entities": [
+  "Kevin",
+  "FAA",
+  "SMART",
+  "Jensen Huang",
+  "Nvidia",
+  "James Lee",
+  "Bill Gates",
+  "Sam Altman",
+  "Netanyahu",
+  "Mellanox",
+  "CoreWeave",
+  "ACARS Drama"
+ ]
+}

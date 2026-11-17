@@ -1,0 +1,45 @@
+{
+ "metaDescription": "Kevin examines the nationwide FAA ground stop and asks whether the new SMART AI traffic tool, rolled out to all 22 centers, played a role.",
+ "summary": "This video covers the nationwide FAA ground stop that grounded US flights, and Kevin's questions about whether the agency's new AI traffic tool played a role. Kevin reports that Secretary Sean Duffy cited a communication issue at all 22 air route traffic control centers, days after the FAA said its $875 million SMART system went live nationwide. The FAA says SMART only suggests routes and does not touch radios or radar. Kevin says he is not claiming AI caused the outage but wants an investigation and published safety testing. He also cites Bill Gates's remarks on cyber attacks and AI regulation, and argues regulatory capture is a risk.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Nationwide Ground Stop Explained"
+  },
+  {
+   "t": 90,
+   "label": "What the FAA and Duffy Reported"
+  },
+  {
+   "t": 182,
+   "label": "Cyber Attack or System Failure?"
+  },
+  {
+   "t": 274,
+   "label": "The SMART AI Traffic Tool"
+  },
+  {
+   "t": 365,
+   "label": "Open Questions About SMART Testing"
+  },
+  {
+   "t": 550,
+   "label": "Bill Gates and AI Regulation"
+  },
+  {
+   "t": 641,
+   "label": "Regulatory Capture and Compute Wars"
+  }
+ ],
+ "entities": [
+  "FAA",
+  "Sean Duffy",
+  "SMART",
+  "Air Route Traffic Control Centers",
+  "Ben Jordan",
+  "Bill Gates",
+  "Sam Altman",
+  "Regulatory Capture",
+  "NOTAM"
+ ]
+}

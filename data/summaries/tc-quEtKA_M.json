@@ -1,0 +1,46 @@
+{
+ "metaDescription": "Kevin argues AI adoption has plateaued, that circular financing among Nvidia, CoreWeave, Anthropic and Microsoft is risky, and that Apple and Google agents are next.",
+ "summary": "This video is Kevin's argument that the future of the internet is agentic: Apple and Google will give users AI agents that handle how they browse and shop. Kevin cites a post claiming AI infrastructure demand is double counted and that revenue stacking and circular financing among Nvidia, CoreWeave, Anthropic, and Microsoft could amplify a downturn. He argues voluntary AI adoption has plateaued, so further adoption will be forced through jobs and retail agents. He predicts taxpayers will bail out failing AI companies, which will merge into one blob. He advises learning self-sufficiency and keeping some things, like music, human.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Apple and Google AI Agents Coming"
+  },
+  {
+   "t": 93,
+   "label": "Double Counting of AI Infrastructure Demand"
+  },
+  {
+   "t": 188,
+   "label": "Circular Financing and Revenue Stacking"
+  },
+  {
+   "t": 416,
+   "label": "AI Adoption Has Plateaued"
+  },
+  {
+   "t": 553,
+   "label": "Retail Agents Will Run Online Shopping"
+  },
+  {
+   "t": 691,
+   "label": "Forced Adoption and Likely Bailouts"
+  },
+  {
+   "t": 781,
+   "label": "Staying Self-Sufficient and Human"
+  }
+ ],
+ "entities": [
+  "Apple",
+  "Google",
+  "Sam Altman",
+  "Anthropic",
+  "CoreWeave",
+  "NVIDIA",
+  "Microsoft",
+  "Core Scientific",
+  "Amazon",
+  "Suno"
+ ]
+}

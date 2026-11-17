@@ -1,0 +1,78 @@
+[
+ [
+  0,
+  "Apple is going to give you an AI agent. Then Google is going to give you an AI agent. And it doesn't matter what you think about AI. You're going to have it. And soon, and maybe soon as a year from now, maybe even two years from now. I doubt longer than that. What's going to happen is that your AI agent that you're going to have, whether you asked for it or not, is going to be how you interact with the internet. Let's talk about AI because it's"
+ ],
+ [
+  46,
+  "actually been a minute. It's been a minute. Oh, it's been a minute since I talked about anything. So it makes it feel like even longer since I've talked about certain topics and things. The AI AI is still like one of the most important topics um out there right now uh for sure. For sure. I mean, this is this is technology that is going to permeate into every aspect of our lives. Like even more than the internet itself. I truly believe that. And it's going to permeate faster. Like much faster. Uh I found this post and was like blown away by this post because uh uh if this is true, this is"
+ ],
+ [
+  93,
+  "crazy. This is like really crazy. So anyway, let's get to this post because it's pretty good. It's pretty good. It's pretty good. Okay. Before Jensen Wong took over the headlines, Sam Altman was making them for reportedly acknowledging that AI infrastructure demand has been double counted. What is that mean? Imagine Anthropic needs 10,000 NVIDIA GPUs to meet projected customer demand. Anthropic then contracts with CoreWeave for the computing capacity. Then CoreWeave contracts with a data center developer to build the infrastructure"
+ ],
+ [
+  140,
+  "and orders the GPUs from NVIDIA. You with me so far? It's supply and demand. CoreWeave will make the data centers based on the the demand that they're giving in projections from the frontier AI companies, right? And I have theories as to why this is and we'll go over them and some of you probably already know. Okay, now imagine the industry looks at that separately and counts Anthropic's demand for 10,000 GPUs and CoreWeave's planned deployment of 10,000 GPUs. The market appears to need 20,000 GPUs, except it's the same 10,000 GPUs. That's demand double counting. And watch"
+ ],
+ [
+  188,
+  "what happens when we add financing on top of it. Let's say CoreWeave needs $30 to buy the equipment for our hypothetical project. So NVIDIA invests $15 in CoreWeave and a lender gives them another 15 against the future customer's contract. CoreWeave then takes that $30 and buys NVIDIA GPUs and NVIDIA records $30 in hardware revenue. CoreWeave gets its infrastructure. The lender gets a claim on future cash flows and the whole process relies on enough customers buying AI to justify the investment because what happens when we follow the actual end consumer spending? Let's say a company spends $100 on AI. Microsoft sells the AI product and"
+ ],
+ [
+  234,
+  "records $100 in revenue. Microsoft then pays Anthropic $60 for model services. Anthropic pays CoreWeave $40 for compute. CoreWeave pays Core Scientific $10 for hosting, and CoreWeave purchases $30 in NVIDIA GPUs. Look what happens at the revenue reported across those transactions from that $100 order. Microsoft records 100, Anthropic 60, CoreWeave 40, Core Scientific 10, NVIDIA 30. That's 240 in reported revenue associated with a supply chain for $100 in customer spending, plus the separately financed hardware investment. Each company is allowed to legitimately recognize revenue for the products or services it delivers, but that $240 in revenue"
+ ],
+ [
+  281,
+  "across the supply chain is not reflective of customer demand. At what and what happens when we put all three of those things together, the double counting, financing, and revenue stacking? Demand estimates can overlap. Companies borrow and invest against those projections. Those investments generate real sales and support additional revenue forecasts, and those forecasts help justify the next round of borrowing and infrastructure expansion. The financial system begins reinforcing the very expectation it's relying on. A system like this can amplify on the way up, and it can also amplify on the way down because what happens if the AI market keeps growing but not as quickly"
+ ],
+ [
+  326,
+  "as projected? The GPUs are already bought, data centers are built, debt needs servicing, and if companies need more money, they might have to pay higher interest rates at exactly the time when their expected cash flows are falling short. AI demand can grow, and this still can become a problem. It only has to grow slower than the debt built around it, and you can't look at the AI economy by looking at these companies separately because unless you're looking at how much genuinely independent demand supports the entire system and how many financial obligations have been built on top of it, you're missing the full picture. The question we should all be asking is, who gets to capture the upside and who"
+ ],
+ [
+  371,
+  "pays for it all when it falls down? Now, if you remember that big chart that was going around for a while there, it was like just showing the circular nature of the finances of all of the AI companies, Nvidia, uh xAI, OpenAI, uh Anthropic, those this is kind of what we're talking about here. This is what we get to talk what we're talking about. This is a better breakdown understanding of the circular nature of the money and the demand being passed around."
+ ],
+ [
+  416,
+  "But what's happening, AI adoption has plateaued because at this point, at the end of 2026, everybody has their very clear-cut understanding of what they think of AI. You're either for it, against it, or you're in the middle where you don't really care because it doesn't have an effect on your life. We've pretty much adopted all of the willing adopters by this point. So AI adoption did this and now it's doing this, right? Like maybe just a little slight right? Especially as more and more"
+ ],
+ [
+  461,
+  "people have used AI and realized over the last six, eight months that like the the like the coding agent like Claude Code, Codex, like all that sort of stuff, where we kind of realized that like we're all building the same thing. Nobody's actually making money off of like making these SaaS things. People are rejecting it because more people are rejecting AI than are taking it on. And so this is what it is. Even the people who were using it are kind of over it, a lot of them, myself included from time to time to be honest. When it all fails, we'll be the ones to fix it. We'll be the ones to pay it"
+ ],
+ [
+  507,
+  "because just like every other big business in this in this country, we privatize the gains and we socialize the losses because one thing I'll tell you is this government is going to ensure that AI adoption happens. So what's going to happen? Well, I've talked about this a lot. Let's talk about it again. Apple is going to give you an AI agent. Then Google is going to give you an AI agent. And it doesn't matter what you think about AI. You're going to have it. And soon, and maybe soon as a year from now,"
+ ],
+ [
+  553,
+  "maybe even two years from now. I doubt longer than that. What's going to happen is that your AI agent that you're going to have, whether you asked for it or not, is going to be how you interact with the internet. And so mass AI adoption is going to come. Now, most people will not be doing coding agents, but they'll have retail agents. This is how you're going to buy most of what you buy on the internet. Don't believe me? Go on to Amazon right now. Chances are you have an Amazon subscription. And you may still even hate Jeff Bezos,"
+ ],
+ [
+  598,
+  "but you got an Amazon subscription. I do. Go and use their AI. That's how I buy things now on on Amazon. I say this is what I want. This is what I like I need it for. And then it goes and finds it, finds me the three of them and says, what about this one, this one, this one? And I go, that one. But instead like your agents are going to go and you're and they're going to go to every website you say, hey, I want a green large hoodie that's really soft and has no logo on it. And then it'll go to all the websites, it'll scrape all the websites and then it'll give you back, here's your 10 options. Do you want to base, you know, do you want to split them by price"
+ ],
+ [
+  645,
+  "or how quickly you can get them delivered or this or that, that that that? That's how you're going to shop. So mass AI adoption is coming. But where we stand right now is it's not here yet. And we've kind of exhausted everybody. There's no amount of marketing that's going to turn on another 20% adoption. 30%, 40%, 50%, that's not going to happen. We've we've we've reached the top of the adoption. Anybody from this point on is going to be forced into adoption. Now maybe it might be for your job or it might be just a better"
+ ],
+ [
+  691,
+  "retail experience for you to purchase something. But that is what's coming. And honestly, it's what all of these companies need so that they can start actually I mean, I think I think it's a myth to think that any of these AI companies are actually going to make money. But they can they can incur less debt. They can incur less debt. But I think the mass adoption and and forced adoption is the only way out for these guys. And most of the companies will probably fail. And before they actually really truly well fail,"
+ ],
+ [
+  736,
+  "uh what'll probably happen is we're going to wind up bailing a lot of them out. Like we, the American people are going to bail a lot of them out. I'm quite sure that's what's going to happen. And then uh uh they'll all kind of merge into one amorphous AI blob. And uh and Apple will provide the way that you interact with AI. And that's what's going to happen. And so all of this circular financing and all this sort of stuff, it's just a means to get to that end. That's at least what I think. That's how I see it. Uh but what you should do"
+ ],
+ [
+  781,
+  "is you should like, you know, learn how to grow your own food. You know, you should learn ways to be self-sufficient, you know? And use AI, but like maybe have some things that you just don't use AI for. You know? Like I love AI, but you'll never see me make music with Suno because for me that's a bridge too far on an art form that I love that is so uniquely human and something that transcends literally all human life. And I think it needs to stay human. So you'll never see me make music with Suno. But I'll use it to research it. I'll I'll"
+ ],
+ [
+  827,
+  "use it to to to do some things, to like edit my videos up for me for YouTube so I don't have to spend you know, 6 hours that I don't have put this content out. I'll have it do things that I don't want to do anyway, you know? Or things that I'll never do because I'm way too ADD to actually sit down and do those monotonous things."
+ ]
+]
