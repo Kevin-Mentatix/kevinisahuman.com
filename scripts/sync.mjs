@@ -6,9 +6,46 @@ import { site } from '../site.config.mjs';
 
 const KEY = process.env.YOUTUBE_API_KEY;
 if (!KEY) {
-  console.error('YOUTUBE_API_KEY not set; skipping sync.');
-  if (process.env.GITHUB_ACTIONS) console.log('::warning title=YouTube sync skipped::YOUTUBE_API_KEY secret is not set, so new uploads are not being picked up.');
+  if (process.env.GITHUB_ACTIONS) console.log('::warning title=RSS fallback::YOUTUBE_API_KEY is not set; syncing new uploads from the public RSS feed instead.');
+  await rssSync();
   process.exit(0);
+}
+
+// Keyless fallback: the public channel feed lists the latest 15 uploads. New videos are added
+// (length and stream status read from the watch page, best effort); nothing is ever removed.
+async function rssSync() {
+  const xml = await (await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${site.channelId}`)).text();
+  const un = (t = '') => t.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  const pick = (e, re) => (e.match(re) || [])[1];
+  const existing = new Map(readJSON(VIDEOS_JSON, []).map((v) => [v.id, v]));
+  let added = 0;
+  for (const e of xml.split('<entry>').slice(1)) {
+    const id = pick(e, /<yt:videoId>([^<]+)/);
+    const views = +pick(e, /<media:statistics views="(\d+)"/) || 0;
+    const prev = existing.get(id);
+    if (prev) { prev.views = Math.max(prev.views || 0, views); continue; }
+    let duration = 0, live = false;
+    try {
+      const html = await (await fetch(`https://www.youtube.com/watch?v=${id}`, { headers: { 'accept-language': 'en' } })).text();
+      duration = +pick(html, /"lengthSeconds":"(\d+)"/) || 0;
+      live = /"isLiveContent":true/.test(html);
+      if (/"isUpcoming":true|"isLive":true/.test(html)) continue; // not finished yet
+    } catch {}
+    existing.set(id, {
+      id,
+      title: un(pick(e, /<title>([^<]*)/)),
+      description: un(pick(e, /<media:description>([^<]*)/)),
+      publishedAt: new Date(pick(e, /<published>([^<]+)/)).toISOString(),
+      duration,
+      type: /\/shorts\//.test(pick(e, /<link rel="alternate" href="([^"]+)/) || '') ? 'short' : live ? 'stream' : 'video',
+      tags: [], views, likes: 0, maxres: false,
+    });
+    added++;
+  }
+  const videos = [...existing.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  assignSlugs(videos);
+  writeJSON(VIDEOS_JSON, videos);
+  console.log(`sync (rss): ${videos.length} videos (${added} new)`);
 }
 
 const api = async (endpoint, params) => {
