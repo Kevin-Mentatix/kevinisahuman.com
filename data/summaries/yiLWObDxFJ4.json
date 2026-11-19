@@ -1,0 +1,22 @@
+{
+ "metaDescription": "Kevin argues recent outages at banks, airlines, the FAA, Microsoft and Apple will be blamed on AI-enabled cyber attacks to justify banning open-source AI.",
+ "summary": "This video is Kevin's argument that recent infrastructure outages at banks, airlines, the FAA, Microsoft and Apple will be blamed on AI-driven cyber attacks, with open-source AI as the fall guy. Kevin says he does not know whether these are attacks, but he cites an FBI Dallas field office advisory about the Rex penetration testing framework. He predicts China and DeepSeek's open models will be blamed. He argues this could lead to regulation that protects American frontier AI labs, restricts open-weight models and open-source software, and pushes users onto metered cloud compute. He calls for digital sovereignty.",
+ "keyMoments": [
+  {
+   "t": 0,
+   "label": "Are the Outages Cyber Attacks?"
+  }
+ ],
+ "entities": [
+  "Open-source AI",
+  "FBI",
+  "Rex",
+  "ConnectWise",
+  "DeepSeek",
+  "Anthropic",
+  "OpenAI",
+  "FAA",
+  "Amazon",
+  "Nvidia"
+ ]
+}
